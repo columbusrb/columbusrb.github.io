@@ -1,0 +1,10 @@
+<footer>
+  <p>&copy; {{ site.time | date: '%Y'}} Columbus Ruby Brigade</p>
+  <div class="social">
+    {% for social in site.data.social %}
+      <a href="{{ social.url }}" target="_blank">
+        <img src="/assets/images/{{ social.name }}.svg" alt="{{ social.name }}"/>
+      </a>
+    {% endfor %}
+  </div>
+</footer>
