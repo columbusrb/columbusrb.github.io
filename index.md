@@ -41,10 +41,10 @@ We are a bunch of professionals, students, and geeks who are excited about [Ruby
 ## Who's using Ruby?
 Have you ever wondered who's using Ruby in Columbus? Want to find Ruby developers who want to work at your company? Want to get your company on the list? Put in a [Pull Request here](https://github.com/columbusrb/columbusrb.github.io/blob/jekyll/_data/companies.yml)!
 
-| Name | URL | Market | Location |
-| ---- | --- | ------ | -------- |
+| Name | Market | Location |
+| ---- | ------ | -------- |
 {% for company in site.data.companies -%}
-|{{ company.name }} | [{{ company.url }}]({{ company.url }}) |{{ company.market }} |{{ company.location }} | 
+|[{{ company.name }}]({{ company.url }}) |{{ company.market }} |{{ company.location }} | 
 {% endfor %}
 
 ## Board of Directors
