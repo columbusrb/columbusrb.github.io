@@ -24,7 +24,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          ruby-version: '3.4'
+          ruby-version: "3.4"
       - name: Setup Pages
         uses: actions/configure-pages@v5
         id: pages
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deployt to GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
     environment:
