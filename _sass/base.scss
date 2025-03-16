@@ -1,14 +1,26 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$primaryColor: #cc342d;
+$panelBackground: #f6f6f3;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  color: $primaryColor;
 }
 
 header {
+  margin: 8px;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -29,7 +41,44 @@ nav {
   gap: 1rem;
 }
 
+main {
+  margin: 8px;
+
+  @media (width >= 40rem) { max-width: 40rem; }
+  @media (width >= 48rem) { max-width: 48rem; }
+  @media (width >= 64rem) { max-width: 64rem; }
+  @media (width >= 80rem) { max-width: 80rem; }
+
+  .talk {
+    .speaker {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          height: 1rem;
+        }
+      }
+    }
+  }
+}
+
 footer {
+  margin: auto 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .social {
     a {
       text-decoration: none;

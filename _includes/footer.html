@@ -1,5 +1,4 @@
 <footer>
-  <p>&copy; {{ site.time | date: '%Y'}} Columbus Ruby Brigade</p>
   <div class="social">
     {% for social in site.data.social %}
       <a href="{{ social.url }}" target="_blank">
@@ -7,4 +6,5 @@
       </a>
     {% endfor %}
   </div>
+  <p>&copy; {{ site.time | date: '%Y'}} Columbus Ruby Brigade</p>
 </footer>
