@@ -1,8 +1,8 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$primaryColor: #cc342d;
-$panelBackground: #f6f6f3;
+$primaryColor: #D30001;
+$panelBackground: #F0E7E9;
 
 body {
   background: $backgroundColor;
@@ -32,6 +32,8 @@ header {
   .title {
     align-self: center;
     font-size: 2.5em;
+    font-weight: 700;
+    color: $primaryColor;
   }
 }
 
