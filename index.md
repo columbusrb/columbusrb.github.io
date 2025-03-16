@@ -5,12 +5,30 @@ title: "Home"
 
 ## Next Meeting
 {% assign next = site.posts.first %}
-<div>
-    <a href="{{next.url}}">{{ next.title }}</a>
-    {% for speaker_id in next.speakers %}
-        {% assign speaker = site.data.speakers[speaker_id] %}
-        <span>{{speaker.name}}</span>
-    {% endfor %}
+<div class="next-mtg">
+  <div class="talk">
+      <p><strong>Talk:</strong>
+        <a href="{{next.url}}">{{ next.title }}</a>
+      </p>
+      <p><strong>Speaker(s):</strong></p>
+      <ul>
+      {% for speaker_id in next.speakers %}
+          {% assign speaker = site.data.speakers[speaker_id] %}
+          <li>{{speaker.name}}</li>
+      {% endfor %}
+      </ul>
+      <p><strong>When:</strong> {{ next.date | date: "%B %-d, %Y" }} 6:30pm</p>
+      <p><strong>Where:</strong>
+        <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank">
+          CoverMyMeds - 910 John St, Columbus, OH 43222
+        </a>
+      </p>
+  </div>
+  <div class="location">
+    <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank">
+      <img src="/assets/images/map.png" alt="Metting location map" />
+    </a>
+  </div>
 </div>
 
 ## About
