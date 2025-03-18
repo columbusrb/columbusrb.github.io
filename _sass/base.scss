@@ -99,6 +99,20 @@ main {
       }
     }
   }
+
+  .sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      img {
+        max-width: 400px;
+        max-height: 120px;
+      }
+    }
+  }
 }
 
 footer {

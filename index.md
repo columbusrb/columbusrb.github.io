@@ -62,3 +62,13 @@ Have you ever wondered who's using Ruby in Columbus? Want to find Ruby developer
     </li>
 {% endfor %}
 </ul>
+
+## Graciously Sponsored By
+
+<div class="sponsors">
+  {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.link}}" target="_blank" title="{{ sponsor.name }}">
+      <img src="/assets/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+    </a>
+  {% endfor %}
+</div>
