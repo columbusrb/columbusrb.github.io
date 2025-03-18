@@ -1,0 +1,133 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$primaryColor: #D30001;
+$panelBackground: #F0E7E9;
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 8px 0 8px;
+}
+
+a {
+  color: $primaryColor;
+}
+
+header {
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  .brand {
+    height: 4rem;
+  }
+
+  .title {
+    align-self: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: $primaryColor;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (width >= 40rem) { max-width: 40rem; }
+  @media (width >= 48rem) { max-width: 48rem; }
+  @media (width >= 64rem) { max-width: 64rem; }
+  @media (width >= 80rem) { max-width: 80rem; }
+
+  .next-mtg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .talk {
+      // max-width: 40rem;
+    }
+
+    .location {
+      // flex-basis: 40%;
+
+      img {
+        width: 370px;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+
+  .talk {
+    .date {
+      font-style: italic;
+    }
+
+    .speaker {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          height: 1rem;
+        }
+      }
+    }
+  }
+
+  .sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      img {
+        max-width: 400px;
+        max-height: 120px;
+      }
+    }
+  }
+}
+
+footer {
+  margin: auto 8px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .social {
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      height: 1.25rem;
+    }
+  }
+}

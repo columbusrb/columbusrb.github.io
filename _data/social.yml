@@ -1,0 +1,12 @@
+- name: x-twitter
+  url: https://x.com/columbusrb
+- name: bluesky
+  url: https://bsky.app/profile/columbusrb.bsky.social
+- name: github
+  url: https://github.com/columbusrb
+- name: linkedin
+  url: https://www.linkedin.com/company/columbus-ruby-brigade
+- name: meetup
+  url: https://www.meetup.com/columbusrb/
+- name: slack
+  url: https://join.slack.com/t/columbusrb/shared_invite/zt-1uq5pecs5-FyMW8vG_ZpdLzjhytosHXw
