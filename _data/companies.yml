@@ -41,7 +41,7 @@
   other_tech: React, PHP
 
 - name: Beam Technologies, Inc
-  url: https://www.beam.dental
+  url: https://www.beambenefits.com
   market: Dental Insurance
   location: Downtown Columbus
   team_size: Small
@@ -74,13 +74,6 @@
   location: Downtown Columbus
   team_size: Small
   other_tech: PostgreSQL, React, PHP, Javascript
-
-- name: Pigeon
-  url: https://pigeonforteachers.com
-  market: Edutech
-  location: Columbus
-  team_size: Small
-  other_tech: Postgres, Twilio, Heroku, AWS, Stimulus, React
 
 - name: Data-Axle
   url: https://www.data-axle.com
