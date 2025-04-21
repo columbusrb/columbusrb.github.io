@@ -39,7 +39,7 @@ We are a bunch of professionals, students, and geeks who are excited about [Ruby
 - We freely provide decades worth of experience
 
 ## Who's using Ruby?
-Have you ever wondered who's using Ruby in Columbus? Want to find Ruby developers who want to work at your company? Want to get your company on the list? Put in a [Pull Request here](https://github.com/columbusrb/columbusrb.github.io/blob/jekyll/_data/companies.yml)!
+Have you ever wondered who's using Ruby in Columbus? Want to find Ruby developers who want to work at your company? Want to get your company on the list? Put in a [Pull Request here](https://github.com/columbusrb/columbusrb.github.io/blob/main/_data/companies.yml)!
 
 | Name | Market | Location |
 | ---- | ------ | -------- |
