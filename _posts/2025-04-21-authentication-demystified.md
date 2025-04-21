@@ -15,3 +15,5 @@ This session focuses on core concepts, not code, and is accessible to anyone tha
 I've been a "security minded" developer for many years and remember being very frustrated and confused when I couldn't find a clear, easy-to-follow guide to picking an authentication strategy for my apps.
 
 Since then I've done a bunch of research and worked with a bunch of different security techniques, so I designed this as the clear, easy-to-follow guide that I so desperately wanted back then. I think it will help a lot of developers (and non-devs) understand how things work at a fundamental level.
+
+[GitHub Slides](https://github.com/spetryjohnson/talk-PracticalAuthForDevs)
