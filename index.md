@@ -5,24 +5,29 @@ title: "Home"
 
 ## Next Meeting
 {% assign next = site.posts.first %}
+{% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
 <div class="next-mtg">
-  <div class="talk">
+  <div class="talks">
+    {% for talk in talks %}
+    <div class="talk">
       <p><strong>Talk:</strong>
-        <a href="{{next.url}}">{{ next.title }}</a>
+        <a href="{{talk.url}}">{{ talk.title }}</a>
       </p>
       <p><strong>Speaker(s):</strong></p>
       <ul>
-      {% for speaker_id in next.speakers %}
+      {% for speaker_id in talk.speakers %}
           {% assign speaker = site.data.speakers[speaker_id] %}
           <li>{{speaker.name}}</li>
       {% endfor %}
       </ul>
-      <p><strong>When:</strong> {{ next.date | date: "%B %-d, %Y" }} 6:30pm</p>
-      <p><strong>Where:</strong>
-        <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank">
-          CoverMyMeds - 910 John St, Columbus, OH 43222
-        </a>
-      </p>
+    </div>
+    {% endfor %}
+    <p><strong>When:</strong> {{ next.date | date: "%B %-d, %Y" }} 6:30pm</p>
+    <p><strong>Where:</strong>
+      <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank">
+        CoverMyMeds - 910 John St, Columbus, OH 43222
+      </a>
+    </p>
   </div>
   <div class="location">
     <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank">
