@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Bring a laptop!"
+date: 2017-12-18
+meeting_id: 292
+meeting_format: Meeting
+link: https://www.meetup.com/meetup-group-wEkWWOXK/events/244556008/
+speakers:
+  - hacknight
+---
+
+**Link:** [https://www.meetup.com/meetup-group-wEkWWOXK/events/244556008/](https://www.meetup.com/meetup-group-wEkWWOXK/events/244556008/)
+
+**Meeting Format:** Meeting
+
+<!-- Add talk description here -->
