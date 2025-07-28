@@ -3,7 +3,6 @@ layout: post
 title: "REST - You’re gonna have a bad time"
 date: 2014-12-15
 meeting_id: 223
-meeting_format: Lecture
 link: http://covermymeds.com
 speakers:
   - grahamconzett
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [http://covermymeds.com](http://covermymeds.com)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->

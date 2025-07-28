@@ -3,7 +3,6 @@ layout: post
 title: "Image processing in Ruby"
 date: 2013-07-15
 meeting_id: 189
-meeting_format: Lecture
 link: https://twitter.com/mikedanko
 speakers:
   - mikedanko
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [https://twitter.com/mikedanko](https://twitter.com/mikedanko)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->

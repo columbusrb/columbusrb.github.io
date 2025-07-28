@@ -3,7 +3,6 @@ layout: post
 title: "git as a KV Store"
 date: 2015-06-15
 meeting_id: 235
-meeting_format: Lecture
 link: https://twitter.com/yburyug
 speakers:
   - redleatherpants
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [https://twitter.com/yburyug](https://twitter.com/yburyug)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->

@@ -3,7 +3,6 @@ layout: post
 title: "Rails 4 Updates"
 date: 2013-09-16
 meeting_id: 193
-meeting_format: Lecture
 link: https://twitter.com/GregMalcolm
 speakers:
   - gregmalcolm
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [https://twitter.com/GregMalcolm](https://twitter.com/GregMalcolm)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->

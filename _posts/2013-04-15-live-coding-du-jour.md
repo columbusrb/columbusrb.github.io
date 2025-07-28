@@ -3,7 +3,6 @@ layout: post
 title: "Live Coding Du Jour"
 date: 2013-04-15
 meeting_id: 183
-meeting_format: Lecture
 link: twitter.com/rjo1970
 speakers:
   - rjosborne
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [twitter.com/rjo1970](twitter.com/rjo1970)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->

@@ -3,7 +3,6 @@ layout: post
 title: "Pry deep dive"
 date: 2013-06-17
 meeting_id: 187
-meeting_format: Lecture
 link: https://twitter.com/Saterus
 speakers:
   - alexburkhart
@@ -11,6 +10,5 @@ speakers:
 
 **Link:** [https://twitter.com/Saterus](https://twitter.com/Saterus)
 
-**Meeting Format:** Lecture
 
 <!-- Add talk description here -->
