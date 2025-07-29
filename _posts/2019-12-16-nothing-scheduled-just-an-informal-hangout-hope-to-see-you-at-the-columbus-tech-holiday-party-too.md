@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Nothing scheduled, just an informal hangout. Hope to see you at the Columbus Tech Holiday Party too!"
+date: 2019-12-16
+meeting_id: 316
+link: http://www.columbusrb.com
+speakers:
+  - chillinformalmeetup
+---
+
+
+<!-- Add talk description here -->

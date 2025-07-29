@@ -1,10 +1,14 @@
-<footer>
-  <div class="social">
-    {% for social in site.data.social %}
-      <a href="{{ social.url }}" target="_blank">
-        <img src="/assets/images/{{ social.name }}.svg" alt="{{ social.name }}"/>
-      </a>
-    {% endfor %}
+<footer class="text-white mt-16" style="background: linear-gradient(to bottom, #494a50, #2b2c30);">
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex flex-col items-center space-y-4">
+      <div class="social flex space-x-4">
+        {% for social in site.data.social %}
+          <a href="{{ social.url }}" target="_blank" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <img src="/assets/images/{{ social.name }}.svg" alt="{{ social.name }}" class="h-6 w-6"/>
+          </a>
+        {% endfor %}
+      </div>
+      <p class="text-gray-400 text-sm">&copy; {{ site.time | date: '%Y'}} Columbus Ruby Brigade</p>
+    </div>
   </div>
-  <p>&copy; {{ site.time | date: '%Y'}} Columbus Ruby Brigade</p>
 </footer>

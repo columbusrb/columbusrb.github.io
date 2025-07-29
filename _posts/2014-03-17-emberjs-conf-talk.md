@@ -1,0 +1,12 @@
+---
+layout: post
+title: "EmberJS Conf talk"
+date: 2014-03-17
+meeting_id: 205
+link: http://whomikejones.com/
+speakers:
+  - mattjones
+---
+
+
+<!-- Add talk description here -->

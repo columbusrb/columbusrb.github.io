@@ -33,3 +33,612 @@ matteland:
   linkedin: matteland
   x-twitter: IntegerMan
   web: https://matteland.dev/
+
+zachbriggs:
+  name: Zach Briggs
+  # Add additional info like twitter, linkedin, github, web as needed
+
+joshwalsh:
+  name: Josh Walsh
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mikedoel:
+  name: Mike Doel
+  # Add additional info like twitter, linkedin, github, web as needed
+
+rjosborne:
+  name: RJ Osborne
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonhogue:
+  name: Jon Hogue
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mikedanko:
+  name: Mike Danko
+  # Add additional info like twitter, linkedin, github, web as needed
+
+justinsearls:
+  name: Justin Searls
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alexburkhart:
+  name: Alex Burkhart
+  # Add additional info like twitter, linkedin, github, web as needed
+
+marktareshawty:
+  name: Mark Tareshawty
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alyfluckey:
+  name: Aly Fluckey
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattjones:
+  name: Matt JONES
+  # Add additional info like twitter, linkedin, github, web as needed
+
+willkoehler:
+  name: Will Koehler
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattdarby:
+  name: Matt Darby
+  # Add additional info like twitter, linkedin, github, web as needed
+
+johncolvin:
+  name: John Colvin
+  # Add additional info like twitter, linkedin, github, web as needed
+
+kurtmueller:
+  name: Kurt Mueller
+  # Add additional info like twitter, linkedin, github, web as needed
+
+bradleytemple:
+  name: Bradley Temple
+  # Add additional info like twitter, linkedin, github, web as needed
+
+adammccrea:
+  name: Adam McCrea
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jesscanady:
+  name: Jess Canady
+  # Add additional info like twitter, linkedin, github, web as needed
+
+gregmalcolm:
+  name: Greg Malcolm
+  # Add additional info like twitter, linkedin, github, web as needed
+
+marklorenz:
+  name: Mark Lorenz
+  # Add additional info like twitter, linkedin, github, web as needed
+
+robertjuliano:
+  name: Robert Juliano
+  # Add additional info like twitter, linkedin, github, web as needed
+
+katyexline:
+  name: Katy Exline
+  # Add additional info like twitter, linkedin, github, web as needed
+
+isaacsanders:
+  name: Isaac Sanders
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonathanhogue:
+  name: Jonathan Hogue
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alexbartlow:
+  name: Alex Bartlow
+  # Add additional info like twitter, linkedin, github, web as needed
+
+joeobrien:
+  name: Joe O'Brien
+  # Add additional info like twitter, linkedin, github, web as needed
+
+magnusstahre:
+  name: Magnus Stahre
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattyoho:
+  name: Matt Yoho
+  # Add additional info like twitter, linkedin, github, web as needed
+
+leongersing:
+  name: Leon Gersing
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chandutennety:
+  name: Chandu Tennety
+  # Add additional info like twitter, linkedin, github, web as needed
+
+paulcook:
+  name: Paul Cook
+  # Add additional info like twitter, linkedin, github, web as needed
+
+rj:
+  name: RJ
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattwilliams:
+  name: Matt Williams
+  # Add additional info like twitter, linkedin, github, web as needed
+
+michaelcovert:
+  name: Michael Covert
+  # Add additional info like twitter, linkedin, github, web as needed
+
+lenjaffe:
+  name: Len Jaffe
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chrischandler:
+  name: Chris Chandler
+  # Add additional info like twitter, linkedin, github, web as needed
+
+kevinpfefferle:
+  name: Kevin Pfefferle
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alyssadiaz:
+  name: Alyssa Diaz
+  # Add additional info like twitter, linkedin, github, web as needed
+
+davehoover:
+  name: Dave Hoover
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alexmoore:
+  name: Alex Moore
+  # Add additional info like twitter, linkedin, github, web as needed
+
+derekbriggs:
+  name: Derek Briggs
+  # Add additional info like twitter, linkedin, github, web as needed
+
+aaronchristy:
+  name: Aaron Christy
+  # Add additional info like twitter, linkedin, github, web as needed
+
+marklorenzmichaelgee:
+  name: Mark Lorenz & Michael Gee
+  # Add additional info like twitter, linkedin, github, web as needed
+
+patrickmcsweeny:
+  name: Patrick McSweeny
+  # Add additional info like twitter, linkedin, github, web as needed
+
+josephbeale:
+  name: Joseph Beale
+  # Add additional info like twitter, linkedin, github, web as needed
+
+ryankowalick:
+  name: Ryan Kowalick
+  # Add additional info like twitter, linkedin, github, web as needed
+
+edjones:
+  name: Ed Jones
+  # Add additional info like twitter, linkedin, github, web as needed
+
+robkinyon:
+  name: Rob Kinyon
+  # Add additional info like twitter, linkedin, github, web as needed
+
+alexford:
+  name: Alex Ford
+  # Add additional info like twitter, linkedin, github, web as needed
+
+grahamconzett:
+  name: Graham Conzett
+  # Add additional info like twitter, linkedin, github, web as needed
+
+davebrady:
+  name: Dave Brady
+  # Add additional info like twitter, linkedin, github, web as needed
+
+christophersinger:
+  name: Christopher Singer
+  # Add additional info like twitter, linkedin, github, web as needed
+
+brandonjoyceryanbone:
+  name: Brandon Joyce & Ryan Bone
+  # Add additional info like twitter, linkedin, github, web as needed
+
+bobbygrayson:
+  name: Bobby Grayson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chrisvaughn:
+  name: Chris VAUGHN
+  # Add additional info like twitter, linkedin, github, web as needed
+
+scottmascio:
+  name: Scott Mascio
+  # Add additional info like twitter, linkedin, github, web as needed
+
+brianunderwood:
+  name: Brian Underwood
+  # Add additional info like twitter, linkedin, github, web as needed
+
+danko:
+  name: DANKO
+  # Add additional info like twitter, linkedin, github, web as needed
+
+redleatherpants:
+  name: Red Leather Pants
+  # Add additional info like twitter, linkedin, github, web as needed
+
+toddhitt:
+  name: Todd Hitt
+  # Add additional info like twitter, linkedin, github, web as needed
+
+michaelkenworthy:
+  name: Michael Kenworthy
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonarnett:
+  name: Jon Arnett
+  # Add additional info like twitter, linkedin, github, web as needed
+
+adamwanninger:
+  name: Adam Wanninger
+  # Add additional info like twitter, linkedin, github, web as needed
+
+laurenkinsey:
+  name: Lauren Kinsey
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chrisbarthol:
+  name: Chris Barthol
+  # Add additional info like twitter, linkedin, github, web as needed
+
+danielmartinez:
+  name: Daniel Martinez
+  # Add additional info like twitter, linkedin, github, web as needed
+
+joshuapaulson:
+  name: Joshua Paulson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+erickessler:
+  name: Eric Kessler
+  # Add additional info like twitter, linkedin, github, web as needed
+
+ryanboder:
+  name: Ryan Boder
+  # Add additional info like twitter, linkedin, github, web as needed
+
+michaelgee:
+  name: Michael Gee
+  # Add additional info like twitter, linkedin, github, web as needed
+
+matthewjohnson:
+  name: Matthew Johnson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+richardrickardjr:
+  name: Richard Rickard Jr.
+  # Add additional info like twitter, linkedin, github, web as needed
+
+benjaminwinkler:
+  name: Benjamin Winkler
+  # Add additional info like twitter, linkedin, github, web as needed
+
+bobcarsonanddanmanges:
+  name: Bob Carson and Dan Manges
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattjohnson:
+  name: Matt Johnson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+rickyrickardjr:
+  name: Ricky Rickard Jr.
+  # Add additional info like twitter, linkedin, github, web as needed
+
+petermueller:
+  name: Peter Mueller
+  # Add additional info like twitter, linkedin, github, web as needed
+
+josvalim:
+  name: José Valim
+  # Add additional info like twitter, linkedin, github, web as needed
+
+marlenabowenpedrocoronel:
+  name: Marlena Bowen & Pedro Coronel
+  # Add additional info like twitter, linkedin, github, web as needed
+
+danmanges:
+  name: Dan Manges
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jayboborachelslaby:
+  name: Jay Bobo & Rachel Slaby
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jimcavoli:
+  name: Jim Cavoli
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jandennisonhumphries:
+  name: Jan Dennison Humphries
+  # Add additional info like twitter, linkedin, github, web as needed
+
+michaelrauh:
+  name: Michael Rauh
+  # Add additional info like twitter, linkedin, github, web as needed
+
+nikolanovakovic:
+  name: Nikola Novakovic
+  # Add additional info like twitter, linkedin, github, web as needed
+
+guyrenhowe:
+  name: Guyren Howe
+  # Add additional info like twitter, linkedin, github, web as needed
+
+joshuarussell:
+  name: Joshua Russell
+  # Add additional info like twitter, linkedin, github, web as needed
+
+bradleyschaefer:
+  name: Bradley Schaefer
+  # Add additional info like twitter, linkedin, github, web as needed
+
+larrysanger:
+  name: Larry Sanger
+  # Add additional info like twitter, linkedin, github, web as needed
+
+kriskling:
+  name: Kris Kling
+  # Add additional info like twitter, linkedin, github, web as needed
+
+derekdehart:
+  name: Derek DeHart
+  # Add additional info like twitter, linkedin, github, web as needed
+
+hacknight:
+  name: Hack night
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jayshenk:
+  name: Jay Shenk
+  # Add additional info like twitter, linkedin, github, web as needed
+
+boardofdirectorselection:
+  name: Board of Directors Election
+  # Add additional info like twitter, linkedin, github, web as needed
+
+thomashaver:
+  name: Thomas Haver
+  # Add additional info like twitter, linkedin, github, web as needed
+
+thomaslucero:
+  name: Thomas Lucero
+  # Add additional info like twitter, linkedin, github, web as needed
+
+kelseyshannahan:
+  name: Kelsey Shannahan
+  # Add additional info like twitter, linkedin, github, web as needed
+
+rachelslaby:
+  name: Rachel Slaby
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattjonescohencarlislekyledecot:
+  name: Matt Jones, Cohen Carlisle, Kyle Decot
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mikegee:
+  name: Mike Gee
+  # Add additional info like twitter, linkedin, github, web as needed
+
+meaganmunch:
+  name: Meagan Munch
+  # Add additional info like twitter, linkedin, github, web as needed
+
+damiansynadinos:
+  name: Damian Synadinos
+  # Add additional info like twitter, linkedin, github, web as needed
+
+wesdelp:
+  name: Wes Delp
+  # Add additional info like twitter, linkedin, github, web as needed
+
+samnapolitano:
+  name: Sam Napolitano 
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mattcrocco:
+  name: Matt Crocco
+  # Add additional info like twitter, linkedin, github, web as needed
+
+austenmadden:
+  name: Austen Madden
+  # Add additional info like twitter, linkedin, github, web as needed
+
+vasanthpappu:
+  name: Vasanth Pappu
+  # Add additional info like twitter, linkedin, github, web as needed
+
+wellallbeatthetechholidaypartyondec13th:
+  name: We'll all be at the Tech Holiday party on Dec 13th!
+  # Add additional info like twitter, linkedin, github, web as needed
+
+marlenabowen:
+  name: Marlena Bowen
+  # Add additional info like twitter, linkedin, github, web as needed
+
+mariavianello:
+  name: Maria Vianello
+  # Add additional info like twitter, linkedin, github, web as needed
+
+billsempf:
+  name: Bill Sempf
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonsullivan:
+  name: Jon Sullivan
+  # Add additional info like twitter, linkedin, github, web as needed
+
+sagarmehta:
+  name: Sagar Mehta
+  # Add additional info like twitter, linkedin, github, web as needed
+
+sarahreid:
+  name: Sarah Reid
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jamesgifford:
+  name: James Gifford
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chillinformalmeetup:
+  name: Chill, Informal Meetup
+  # Add additional info like twitter, linkedin, github, web as needed
+
+sethkraut:
+  name: Seth Kraut
+  # Add additional info like twitter, linkedin, github, web as needed
+
+glennharmonjr:
+  name: Glenn Harmon Jr
+  # Add additional info like twitter, linkedin, github, web as needed
+
+lukasindre:
+  name: Lukas Indre
+  # Add additional info like twitter, linkedin, github, web as needed
+
+demoday:
+  name: Demo Day
+  # Add additional info like twitter, linkedin, github, web as needed
+
+showtell:
+  name: SHOW & TELL
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonkruger:
+  name: Jon Kruger
+  # Add additional info like twitter, linkedin, github, web as needed
+
+franklamantia:
+  name: Frank Lamantia
+  # Add additional info like twitter, linkedin, github, web as needed
+
+danmoore:
+  name: Dan Moore
+  # Add additional info like twitter, linkedin, github, web as needed
+
+shaffanmustafa:
+  name: Shaffan Mustafa
+  # Add additional info like twitter, linkedin, github, web as needed
+
+seancorey:
+  name: Sean Corey
+  # Add additional info like twitter, linkedin, github, web as needed
+
+shelbyelzinga:
+  name: Shelby Elzinga
+  # Add additional info like twitter, linkedin, github, web as needed
+
+kevinmurphy:
+  name: Kevin Murphy
+  # Add additional info like twitter, linkedin, github, web as needed
+
+columbustechcommunity:
+  name: Columbus Tech Community
+  # Add additional info like twitter, linkedin, github, web as needed
+
+danielmagliola:
+  name: Daniel Magliola
+  # Add additional info like twitter, linkedin, github, web as needed
+
+nicholasturon:
+  name: Nicholas Turon
+  # Add additional info like twitter, linkedin, github, web as needed
+
+drchristophermorban:
+  name: Dr. Christopher M. Orban
+  # Add additional info like twitter, linkedin, github, web as needed
+
+fishbowl:
+  name: Fishbowl
+  # Add additional info like twitter, linkedin, github, web as needed
+
+clickheretorsvp:
+  name: Click Here to RSVP!
+  # Add additional info like twitter, linkedin, github, web as needed
+
+happyholidays:
+  name: Happy Holidays!
+  # Add additional info like twitter, linkedin, github, web as needed
+
+timmecklem:
+  name: Tim Mecklem
+  # Add additional info like twitter, linkedin, github, web as needed
+
+warnermoore:
+  name: Warner Moore
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chrisward:
+  name: Chris Ward
+  # Add additional info like twitter, linkedin, github, web as needed
+
+brianjbayer:
+  name: Brian J. Bayer
+  # Add additional info like twitter, linkedin, github, web as needed
+
+miles:
+  name: Miles
+  # Add additional info like twitter, linkedin, github, web as needed
+
+techcommunitysummerfest:
+  name: Tech Community Summerfest
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jasonrobinaugh:
+  name: Jason Robinaugh
+  # Add additional info like twitter, linkedin, github, web as needed
+
+everyone:
+  name: Everyone!
+  # Add additional info like twitter, linkedin, github, web as needed
+
+carolineibbotson:
+  name: Caroline Ibbotson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+brianeft:
+  name: Brian Eft
+  # Add additional info like twitter, linkedin, github, web as needed
+
+darylynnross:
+  name: Darylynn Ross
+  # Add additional info like twitter, linkedin, github, web as needed
+
+opendiscussion:
+  name: Open Discussion
+  # Add additional info like twitter, linkedin, github, web as needed
+
+timcallahan:
+  name: Tim Callahan
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jonathanstevens:
+  name: Jonathan Stevens
+  # Add additional info like twitter, linkedin, github, web as needed
+
+sethpetryjohnson:
+  name: Seth Petry-Johnson
+  # Add additional info like twitter, linkedin, github, web as needed
+
+chrisroedig:
+  name: Chris Roedig
+  # Add additional info like twitter, linkedin, github, web as needed
+
+jayboboandjanmilosh:
+  name: Jay Bobo and Jan Milosh
+  # Add additional info like twitter, linkedin, github, web as needed
+

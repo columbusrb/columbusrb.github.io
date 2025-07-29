@@ -1,0 +1,12 @@
+---
+layout: post
+title: "DBC Experience (Leader)"
+date: 2013-12-16
+meeting_id: 199
+link: https://twitter.com/davehoover
+speakers:
+  - davehoover
+---
+
+
+<!-- Add talk description here -->

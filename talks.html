@@ -7,24 +7,62 @@ pagination:
   indexpage: talks
   permalink: talks/:num.html
 ---
-{% for post in paginator.posts %}
-  <div>
-    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
-    <p>{{post.date | date_to_long_string: "ordinal", "US"}}</p>
-  </div>
-{% endfor %}
+
+<div class="space-y-6">
+  {% for post in paginator.posts %}
+    <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+      <div class="flex justify-between items-start mb-3">
+        <h2 class="text-xl font-bold text-gray-800 mb-2">
+          <a href="{{post.url}}" class="text-red-600 hover:text-red-800">{{post.title}}</a>
+        </h2>
+      </div>
+      <p class="text-gray-600 text-sm mb-3">{{post.date | date_to_long_string: "ordinal", "US"}}</p>
+      
+      {% if post.speakers %}
+        <div class="mb-3">
+          <span class="text-sm font-medium text-gray-700">Speakers: </span>
+          {% for speaker_id in post.speakers %}
+            {% assign speaker = site.data.speakers[speaker_id] %}
+            {% if speaker %}
+              <span class="text-sm text-gray-600">
+                {% if speaker.name %}{{ speaker.name }}{% else %}{{ speaker_id }}{% endif %}{% unless forloop.last %}, {% endunless %}
+              </span>
+            {% else %}
+              <span class="text-sm text-gray-600">{{ speaker_id }}{% unless forloop.last %}, {% endunless %}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      
+      {% if post.link %}
+        <div class="mb-3">
+          <a href="{{ post.link }}" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 underline">
+            🔗 {{ post.link }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
 
 {% if paginator.total_pages > 1 %}
-  <ul class="pager">
-    {% if paginator.previous_page %}
-      <li class="previous">
-        <a href="{{ paginator.previous_page_path }}">&larr; Newer Talks</a>
-      </li>
-    {% endif %}
-    {% if paginator.next_page %}
-      <li class="next">
-        <a href="{{ paginator.next_page_path }}">Older Talks &rarr;</a>
-      </li>
-    {% endif %}
-  </ul>
+  <div class="mt-8 flex justify-center">
+    <nav class="flex items-center space-x-4">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200">
+          &larr; Newer Talks
+        </a>
+      {% endif %}
+      
+      <span class="text-gray-600 px-4 py-2">
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200">
+          Older Talks &rarr;
+        </a>
+      {% endif %}
+    </nav>
+  </div>
 {% endif %}

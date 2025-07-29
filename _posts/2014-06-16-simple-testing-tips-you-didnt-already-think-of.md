@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Simple testing tips you didn't already think of"
+date: 2014-06-16
+meeting_id: 211
+link: http://covermymeds.com
+speakers:
+  - marklorenzmichaelgee
+---
+
+
+<!-- Add talk description here -->
