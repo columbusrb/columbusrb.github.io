@@ -8,7 +8,5 @@ speakers:
   - christophersinger
 ---
 
-**Link:** [https://twitter.com/tremulaes](https://twitter.com/tremulaes)
-
 
 <!-- Add talk description here -->

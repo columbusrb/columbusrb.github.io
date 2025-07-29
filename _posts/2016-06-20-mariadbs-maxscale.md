@@ -8,7 +8,5 @@ speakers:
   - mikedanko
 ---
 
-**Link:** [https://mariadb.com/products/mariadb-maxscale](https://mariadb.com/products/mariadb-maxscale)
-
 
 <!-- Add talk description here -->

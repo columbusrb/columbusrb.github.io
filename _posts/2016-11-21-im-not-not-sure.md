@@ -8,7 +8,5 @@ speakers:
   - jonhogue
 ---
 
-**Link:** [https://twitter.com/jonhogue](https://twitter.com/jonhogue)
-
 
 <!-- Add talk description here -->

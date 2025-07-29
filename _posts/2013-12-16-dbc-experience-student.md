@@ -8,7 +8,5 @@ speakers:
   - katyexline
 ---
 
-**Link:** [https://twitter.com/Kathryn_Ex](https://twitter.com/Kathryn_Ex)
-
 
 <!-- Add talk description here -->

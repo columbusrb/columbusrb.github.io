@@ -8,7 +8,5 @@ speakers:
   - jimcavoli
 ---
 
-**Link:** [http://JimCavoli.com](http://JimCavoli.com)
-
 
 <!-- Add talk description here -->

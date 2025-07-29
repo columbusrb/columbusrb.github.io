@@ -8,7 +8,5 @@ speakers:
   - robertjuliano
 ---
 
-**Link:** [http://columbusrb.com](http://columbusrb.com)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - laurenkinsey
 ---
 
-**Link:** [https://twitter.com/LaurenMKinsey](https://twitter.com/LaurenMKinsey)
-
 
 <!-- Add talk description here -->

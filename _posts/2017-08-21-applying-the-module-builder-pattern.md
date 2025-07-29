@@ -8,7 +8,5 @@ speakers:
   - bradleyschaefer
 ---
 
-**Link:** [http://twitter.com/soulcutter](http://twitter.com/soulcutter)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - drchristophermorban
 ---
 
-**Link:** [https://twitter.com/STEMcoding](https://twitter.com/STEMcoding)
-
 
 <!-- Add talk description here -->

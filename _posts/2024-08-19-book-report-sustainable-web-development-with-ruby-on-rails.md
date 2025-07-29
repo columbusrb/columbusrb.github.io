@@ -8,7 +8,5 @@ speakers:
   - jonathanstevens
 ---
 
-**Link:** [https://www.goodreads.com/book/show/56340995-sustainable-web-development-with-ruby-on-rails](https://www.goodreads.com/book/show/56340995-sustainable-web-development-with-ruby-on-rails)
-
 
 <!-- Add talk description here -->

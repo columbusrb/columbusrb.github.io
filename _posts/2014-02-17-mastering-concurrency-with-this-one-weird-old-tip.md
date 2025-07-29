@@ -8,7 +8,5 @@ speakers:
   - marklorenzmichaelgee
 ---
 
-**Link:** [https://www.covermymeds.com/main](https://www.covermymeds.com/main)
-
 
 <!-- Add talk description here -->

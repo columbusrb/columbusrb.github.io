@@ -8,7 +8,5 @@ speakers:
   - mattdarby
 ---
 
-**Link:** [https://www.matchedpattern.com/](https://www.matchedpattern.com/)
-
 
 <!-- Add talk description here -->

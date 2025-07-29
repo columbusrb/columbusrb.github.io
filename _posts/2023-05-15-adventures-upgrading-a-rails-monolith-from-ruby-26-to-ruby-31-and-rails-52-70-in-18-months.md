@@ -8,7 +8,5 @@ speakers:
   - chrisward
 ---
 
-**Link:** [https://www.linkedin.com/in/chris-ward-67157a27/](https://www.linkedin.com/in/chris-ward-67157a27/)
-
 
 <!-- Add talk description here -->

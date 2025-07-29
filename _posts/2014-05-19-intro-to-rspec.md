@@ -5,10 +5,8 @@ date: 2014-05-19
 meeting_id: 209
 link: http://covermymeds.com
 speakers:
-  - joncanady
+  - jesscanady
 ---
-
-**Link:** [http://covermymeds.com](http://covermymeds.com)
 
 
 <!-- Add talk description here -->

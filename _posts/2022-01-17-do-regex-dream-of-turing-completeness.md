@@ -8,7 +8,5 @@ speakers:
   - danielmagliola
 ---
 
-**Link:** [https://twitter.com/dmagliola](https://twitter.com/dmagliola)
-
 
 <!-- Add talk description here -->

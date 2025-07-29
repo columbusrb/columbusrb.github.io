@@ -8,7 +8,5 @@ speakers:
   - alyssadiaz
 ---
 
-**Link:** [https://twitter.com/alycit](https://twitter.com/alycit)
-
 
 <!-- Add talk description here -->

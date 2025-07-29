@@ -8,7 +8,5 @@ speakers:
   - justinsearls
 ---
 
-**Link:** [testdouble.com](testdouble.com)
-
 
 <!-- Add talk description here -->

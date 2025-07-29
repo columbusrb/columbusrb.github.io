@@ -8,7 +8,5 @@ speakers:
   - jandennisonhumphries
 ---
 
-**Link:** [http://twitter.com/jannypie](http://twitter.com/jannypie)
-
 
 <!-- Add talk description here -->

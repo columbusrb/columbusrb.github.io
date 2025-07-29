@@ -8,7 +8,5 @@ speakers:
   - guyrenhowe
 ---
 
-**Link:** [https://medium.com/@gisborne](https://medium.com/@gisborne)
-
 
 <!-- Add talk description here -->

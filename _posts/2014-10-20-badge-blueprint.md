@@ -8,7 +8,5 @@ speakers:
   - edjones
 ---
 
-**Link:** [https://drive.google.com/file/d/0B09HxOmWlIRGMmhlVFdQbHBuM1E/view?usp=sharing](https://drive.google.com/file/d/0B09HxOmWlIRGMmhlVFdQbHBuM1E/view?usp=sharing)
-
 
 <!-- Add talk description here -->

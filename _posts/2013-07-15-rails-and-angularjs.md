@@ -8,7 +8,5 @@ speakers:
   - kurtmueller
 ---
 
-**Link:** [https://github.com/KurtRMueller/SmartDeck](https://github.com/KurtRMueller/SmartDeck)
-
 
 <!-- Add talk description here -->

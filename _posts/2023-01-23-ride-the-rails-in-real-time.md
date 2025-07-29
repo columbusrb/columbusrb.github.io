@@ -8,7 +8,5 @@ speakers:
   - timmecklem
 ---
 
-**Link:** [https://launchscout.com/tim-mecklem](https://launchscout.com/tim-mecklem)
-
 
 <!-- Add talk description here -->

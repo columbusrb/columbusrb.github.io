@@ -8,7 +8,5 @@ speakers:
   - marktareshawty
 ---
 
-**Link:** [https://twitter.com/tarebyte](https://twitter.com/tarebyte)
-
 
 <!-- Add talk description here -->

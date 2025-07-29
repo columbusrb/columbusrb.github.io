@@ -8,7 +8,5 @@ speakers:
   - laurenkinsey
 ---
 
-**Link:** [https://laurenkinseyblog.wordpress.com/about/](https://laurenkinseyblog.wordpress.com/about/)
-
 
 <!-- Add talk description here -->

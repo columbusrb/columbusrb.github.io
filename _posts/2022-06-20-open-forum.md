@@ -8,7 +8,5 @@ speakers:
   - fishbowl
 ---
 
-**Link:** [https://en.wikipedia.org/wiki/Fishbowl_(conversation)](https://en.wikipedia.org/wiki/Fishbowl_(conversation))
-
 
 <!-- Add talk description here -->

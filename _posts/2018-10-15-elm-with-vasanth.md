@@ -8,7 +8,5 @@ speakers:
   - vasanthpappu
 ---
 
-**Link:** [http://elm-lang.org/community](http://elm-lang.org/community)
-
 
 <!-- Add talk description here -->

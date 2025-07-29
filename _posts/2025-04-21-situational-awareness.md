@@ -8,7 +8,5 @@ speakers:
   - chrisroedig
 ---
 
-**Link:** [https://www.linkedin.com/in/christophroedig/](https://www.linkedin.com/in/christophroedig/)
-
 
 <!-- Add talk description here -->

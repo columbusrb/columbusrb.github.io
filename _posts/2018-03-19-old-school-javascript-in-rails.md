@@ -8,7 +8,5 @@ speakers:
   - grahamconzett
 ---
 
-**Link:** [https://railsconf.com/program/sessions#session-583](https://railsconf.com/program/sessions#session-583)
-
 
 <!-- Add talk description here -->

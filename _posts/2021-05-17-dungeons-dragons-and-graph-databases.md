@@ -8,7 +8,5 @@ speakers:
   - guyroyse
 ---
 
-**Link:** [https://github.com/guyroyse/dnd-and-graph-databases/blob/main/ABSTRACT.md](https://github.com/guyroyse/dnd-and-graph-databases/blob/main/ABSTRACT.md)
-
 
 <!-- Add talk description here -->

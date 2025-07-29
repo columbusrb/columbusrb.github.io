@@ -8,7 +8,5 @@ speakers:
   - demoday
 ---
 
-**Link:** [https://twitter.com/columbusrb](https://twitter.com/columbusrb)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - danmanges
 ---
 
-**Link:** [https://www.joinroot.com](https://www.joinroot.com)
-
 
 <!-- Add talk description here -->

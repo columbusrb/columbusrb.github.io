@@ -8,7 +8,5 @@ speakers:
   - miles
 ---
 
-**Link:** [https://www.linkedin.com/in/c-miles/](https://www.linkedin.com/in/c-miles/)
-
 
 <!-- Add talk description here -->

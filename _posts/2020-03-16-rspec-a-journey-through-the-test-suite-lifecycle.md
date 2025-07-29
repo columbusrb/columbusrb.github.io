@@ -8,7 +8,5 @@ speakers:
   - jamesgifford
 ---
 
-**Link:** [https://armyofminions.com](https://armyofminions.com)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - mattdarby
 ---
 
-**Link:** [http://fc.pff.com/](http://fc.pff.com/)
-
 
 <!-- Add talk description here -->

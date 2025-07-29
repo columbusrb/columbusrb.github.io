@@ -8,7 +8,5 @@ speakers:
   - damiansynadinos
 ---
 
-**Link:** [https://www.ineffable-solutions.com/](https://www.ineffable-solutions.com/)
-
 
 <!-- Add talk description here -->

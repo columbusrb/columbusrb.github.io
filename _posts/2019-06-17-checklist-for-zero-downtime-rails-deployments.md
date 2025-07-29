@@ -8,7 +8,5 @@ speakers:
   - sagarmehta
 ---
 
-**Link:** [http://upstart.com](http://upstart.com)
-
 
 <!-- Add talk description here -->

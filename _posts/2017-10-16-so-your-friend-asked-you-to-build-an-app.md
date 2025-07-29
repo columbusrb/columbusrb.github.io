@@ -8,7 +8,5 @@ speakers:
   - jaybobo
 ---
 
-**Link:** [http://slides.com/goodproduce/so-your-friend-asked-you-to-build-an-app](http://slides.com/goodproduce/so-your-friend-asked-you-to-build-an-app)
-
 
 <!-- Add talk description here -->

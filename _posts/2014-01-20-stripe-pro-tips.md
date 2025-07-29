@@ -8,7 +8,5 @@ speakers:
   - aaronchristy
 ---
 
-**Link:** [https://twitter.com/phad](https://twitter.com/phad)
-
 
 <!-- Add talk description here -->

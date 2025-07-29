@@ -8,7 +8,5 @@ speakers:
   - jayboborachelslaby
 ---
 
-**Link:** [http://paircolumbus.org/](http://paircolumbus.org/)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - mikedanko
 ---
 
-**Link:** [http://mittdarko.com](http://mittdarko.com)
-
 
 <!-- Add talk description here -->

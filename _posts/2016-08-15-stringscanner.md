@@ -8,7 +8,5 @@ speakers:
   - mattjones
 ---
 
-**Link:** [https://twitter.com/al2o3cr](https://twitter.com/al2o3cr)
-
 
 <!-- Add talk description here -->

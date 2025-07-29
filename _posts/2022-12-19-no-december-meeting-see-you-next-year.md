@@ -8,7 +8,5 @@ speakers:
   - happyholidays
 ---
 
-**Link:** [https://www.meetup.com/columbusrb/](https://www.meetup.com/columbusrb/)
-
 
 <!-- Add talk description here -->

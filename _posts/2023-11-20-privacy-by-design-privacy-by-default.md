@@ -8,7 +8,5 @@ speakers:
   - benjaminwinkler
 ---
 
-**Link:** [https://www.linkedin.com/in/asa-benjamin-winkler-b747603](https://www.linkedin.com/in/asa-benjamin-winkler-b747603)
-
 
 <!-- Add talk description here -->

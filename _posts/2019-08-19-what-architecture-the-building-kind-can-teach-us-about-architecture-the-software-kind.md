@@ -8,7 +8,5 @@ speakers:
   - wesdelp
 ---
 
-**Link:** [#](#)
-
 
 <!-- Add talk description here -->

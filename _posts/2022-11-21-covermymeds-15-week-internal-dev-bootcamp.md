@@ -8,7 +8,5 @@ speakers:
   - scottmascio
 ---
 
-**Link:** [https://www.spot2fish.com/](https://www.spot2fish.com/)
-
 
 <!-- Add talk description here -->

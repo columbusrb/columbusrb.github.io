@@ -8,7 +8,5 @@ speakers:
   - alyfluckey
 ---
 
-**Link:** [https://twitter.com/WTFluckey](https://twitter.com/WTFluckey)
-
 
 <!-- Add talk description here -->

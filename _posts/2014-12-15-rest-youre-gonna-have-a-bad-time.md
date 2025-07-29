@@ -8,7 +8,5 @@ speakers:
   - grahamconzett
 ---
 
-**Link:** [http://covermymeds.com](http://covermymeds.com)
-
 
 <!-- Add talk description here -->

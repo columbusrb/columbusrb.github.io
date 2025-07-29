@@ -8,7 +8,5 @@ speakers:
   - gregmalcolm
 ---
 
-**Link:** [http://bitly.com/wickedweapons](http://bitly.com/wickedweapons)
-
 
 <!-- Add talk description here -->

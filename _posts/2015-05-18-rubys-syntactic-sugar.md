@@ -8,7 +8,5 @@ speakers:
   - alexburkhart
 ---
 
-**Link:** [http://twitter.com/saterus](http://twitter.com/saterus)
-
 
 <!-- Add talk description here -->

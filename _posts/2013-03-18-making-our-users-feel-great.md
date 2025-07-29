@@ -8,7 +8,5 @@ speakers:
   - joshwalsh
 ---
 
-**Link:** [twitter.com/joshwalsh](twitter.com/joshwalsh)
-
 
 <!-- Add talk description here -->

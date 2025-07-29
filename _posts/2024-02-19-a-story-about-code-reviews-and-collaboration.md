@@ -8,7 +8,5 @@ speakers:
   - brianlees
 ---
 
-**Link:** [https://www.linkedin.com/in/brian-lees/](https://www.linkedin.com/in/brian-lees/)
-
 
 <!-- Add talk description here -->

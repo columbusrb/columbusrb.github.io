@@ -8,7 +8,5 @@ speakers:
   - michaelkenworthy
 ---
 
-**Link:** [http://linkedin.kenworthy.io](http://linkedin.kenworthy.io)
-
 
 <!-- Add talk description here -->

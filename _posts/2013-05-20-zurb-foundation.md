@@ -8,7 +8,5 @@ speakers:
   - mikedanko
 ---
 
-**Link:** [twitter.com/mikedanko](twitter.com/mikedanko)
-
 
 <!-- Add talk description here -->

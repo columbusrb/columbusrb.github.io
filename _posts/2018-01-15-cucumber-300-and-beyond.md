@@ -8,7 +8,5 @@ speakers:
   - thomashaver
 ---
 
-**Link:** [https://www.linkedin.com/in/thomas-haver/](https://www.linkedin.com/in/thomas-haver/)
-
 
 <!-- Add talk description here -->

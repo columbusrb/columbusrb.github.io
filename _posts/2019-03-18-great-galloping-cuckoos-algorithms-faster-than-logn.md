@@ -8,7 +8,5 @@ speakers:
   - mattwilliams
 ---
 
-**Link:** [https://www.linkedin.com/in/mattkwilliams/](https://www.linkedin.com/in/mattkwilliams/)
-
 
 <!-- Add talk description here -->

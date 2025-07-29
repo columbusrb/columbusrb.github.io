@@ -8,7 +8,5 @@ speakers:
   - michaelgee
 ---
 
-**Link:** [https://github.com/mikegee/thread-safety#avoiding-thread-safety-bugs](https://github.com/mikegee/thread-safety#avoiding-thread-safety-bugs)
-
 
 <!-- Add talk description here -->

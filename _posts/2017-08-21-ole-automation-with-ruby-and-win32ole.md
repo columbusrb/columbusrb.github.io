@@ -8,7 +8,5 @@ speakers:
   - joshuarussell
 ---
 
-**Link:** [https://github.com/russelljoshuaa](https://github.com/russelljoshuaa)
-
 
 <!-- Add talk description here -->

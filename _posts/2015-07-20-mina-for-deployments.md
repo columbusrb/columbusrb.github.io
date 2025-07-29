@@ -8,7 +8,5 @@ speakers:
   - toddhitt
 ---
 
-**Link:** [https://twitter.com/todd_hitt](https://twitter.com/todd_hitt)
-
 
 <!-- Add talk description here -->

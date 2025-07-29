@@ -8,7 +8,5 @@ speakers:
   - gregmalcolm
 ---
 
-**Link:** [https://github.com/gregmalcolm](https://github.com/gregmalcolm)
-
 
 <!-- Add talk description here -->

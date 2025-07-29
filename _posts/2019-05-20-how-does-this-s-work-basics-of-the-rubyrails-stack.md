@@ -8,7 +8,5 @@ speakers:
   - jonsullivan
 ---
 
-**Link:** [http://jonsullivandev.com/](http://jonsullivandev.com/)
-
 
 <!-- Add talk description here -->

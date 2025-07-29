@@ -8,7 +8,5 @@ speakers:
   - brianeft
 ---
 
-**Link:** [https://www.linkedin.com/in/brianeft/](https://www.linkedin.com/in/brianeft/)
-
 
 <!-- Add talk description here -->

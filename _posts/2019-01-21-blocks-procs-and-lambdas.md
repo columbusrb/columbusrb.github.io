@@ -8,7 +8,5 @@ speakers:
   - marlenabowen
 ---
 
-**Link:** [https://twitter.com/marlenacodes](https://twitter.com/marlenacodes)
-
 
 <!-- Add talk description here -->

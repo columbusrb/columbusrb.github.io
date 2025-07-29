@@ -8,7 +8,5 @@ speakers:
   - mattdarby
 ---
 
-**Link:** [https://twitter.com/mattdarby](https://twitter.com/mattdarby)
-
 
 <!-- Add talk description here -->

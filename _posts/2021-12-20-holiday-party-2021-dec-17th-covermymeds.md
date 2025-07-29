@@ -8,7 +8,5 @@ speakers:
   - columbustechcommunity
 ---
 
-**Link:** [https://www.eventbrite.com/e/columbus-tech-community-holiday-celebration-2021-registration-211834281037](https://www.eventbrite.com/e/columbus-tech-community-holiday-celebration-2021-registration-211834281037)
-
 
 <!-- Add talk description here -->

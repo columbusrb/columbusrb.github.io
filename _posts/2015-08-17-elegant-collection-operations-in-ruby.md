@@ -8,7 +8,5 @@ speakers:
   - jonarnett
 ---
 
-**Link:** [https://github.com/J3RN](https://github.com/J3RN)
-
 
 <!-- Add talk description here -->

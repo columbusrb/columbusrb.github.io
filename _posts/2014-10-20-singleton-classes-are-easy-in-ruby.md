@@ -8,7 +8,5 @@ speakers:
   - ryankowalick
 ---
 
-**Link:** [https://github.com/rkowalick](https://github.com/rkowalick)
-
 
 <!-- Add talk description here -->

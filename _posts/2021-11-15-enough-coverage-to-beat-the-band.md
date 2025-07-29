@@ -8,7 +8,5 @@ speakers:
   - kevinmurphy
 ---
 
-**Link:** [http://kevinjmurphy.com/coverage](http://kevinjmurphy.com/coverage)
-
 
 <!-- Add talk description here -->

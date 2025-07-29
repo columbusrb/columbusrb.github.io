@@ -8,7 +8,5 @@ speakers:
   - nikolanovakovic
 ---
 
-**Link:** [https://twitter.com/novica93](https://twitter.com/novica93)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - darylynnross
 ---
 
-**Link:** [https://www.linkedin.com/in/darylynn-ross-csslp-cissp](https://www.linkedin.com/in/darylynn-ross-csslp-cissp)
-
 
 <!-- Add talk description here -->

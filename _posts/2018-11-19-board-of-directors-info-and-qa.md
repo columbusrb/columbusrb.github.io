@@ -8,7 +8,5 @@ speakers:
   - rachelslaby
 ---
 
-**Link:** [http://www.belongstorachel.com](http://www.belongstorachel.com)
-
 
 <!-- Add talk description here -->

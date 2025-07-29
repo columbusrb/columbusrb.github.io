@@ -8,7 +8,5 @@ speakers:
   - marklorenz
 ---
 
-**Link:** [https://twitter.com/Soodesune](https://twitter.com/Soodesune)
-
 
 <!-- Add talk description here -->

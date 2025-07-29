@@ -8,7 +8,5 @@ speakers:
   - patrickmcsweeny
 ---
 
-**Link:** [https://twitter.com/PatrickMcSweeny](https://twitter.com/PatrickMcSweeny)
-
 
 <!-- Add talk description here -->

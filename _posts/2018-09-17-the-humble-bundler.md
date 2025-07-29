@@ -8,7 +8,5 @@ speakers:
   - austenmadden
 ---
 
-**Link:** [https://austenmadden.com](https://austenmadden.com)
-
 
 <!-- Add talk description here -->

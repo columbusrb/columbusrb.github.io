@@ -8,7 +8,5 @@ speakers:
   - josephbeale
 ---
 
-**Link:** [http://www.linkedin.com/pub/joseph-beale/9/b71/23](http://www.linkedin.com/pub/joseph-beale/9/b71/23)
-
 
 <!-- Add talk description here -->

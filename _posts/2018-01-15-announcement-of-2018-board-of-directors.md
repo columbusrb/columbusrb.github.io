@@ -8,7 +8,5 @@ speakers:
   - boardofdirectorselection
 ---
 
-**Link:** [http://candidate.columbusrb.com](http://candidate.columbusrb.com)
-
 
 <!-- Add talk description here -->

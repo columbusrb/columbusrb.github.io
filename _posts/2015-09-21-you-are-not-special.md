@@ -8,7 +8,5 @@ speakers:
   - zachbriggs
 ---
 
-**Link:** [http://twitter.com/theotherzach](http://twitter.com/theotherzach)
-
 
 <!-- Add talk description here -->

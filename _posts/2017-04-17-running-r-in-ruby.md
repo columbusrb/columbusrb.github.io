@@ -8,7 +8,5 @@ speakers:
   - danmanges
 ---
 
-**Link:** [http://www.dan-manges.com/](http://www.dan-manges.com/)
-
 
 <!-- Add talk description here -->

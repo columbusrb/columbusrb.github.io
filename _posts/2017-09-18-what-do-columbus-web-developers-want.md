@@ -8,7 +8,5 @@ speakers:
   - larrysanger
 ---
 
-**Link:** [https://en.wikipedia.org/wiki/Larry_Sanger](https://en.wikipedia.org/wiki/Larry_Sanger)
-
 
 <!-- Add talk description here -->

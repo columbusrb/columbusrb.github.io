@@ -8,7 +8,5 @@ speakers:
   - shaffanmustafa
 ---
 
-**Link:** [https://www.linkedin.com/in/shaffan-mustafa/](https://www.linkedin.com/in/shaffan-mustafa/)
-
 
 <!-- Add talk description here -->

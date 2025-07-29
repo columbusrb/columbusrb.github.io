@@ -8,7 +8,5 @@ speakers:
   - tianasilva
 ---
 
-**Link:** [www.linkedin.com/in/tianasilva](www.linkedin.com/in/tianasilva)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - josvalim
 ---
 
-**Link:** [https://github.com/josevalim](https://github.com/josevalim)
-
 
 <!-- Add talk description here -->

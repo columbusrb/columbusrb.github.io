@@ -8,7 +8,5 @@ speakers:
   - michaelrauh
 ---
 
-**Link:** [https://github.com/michaelrauh](https://github.com/michaelrauh)
-
 
 <!-- Add talk description here -->

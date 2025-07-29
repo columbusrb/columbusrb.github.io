@@ -8,7 +8,5 @@ speakers:
   - mattdarby
 ---
 
-**Link:** [http://penis.florist](http://penis.florist)
-
 
 <!-- Add talk description here -->

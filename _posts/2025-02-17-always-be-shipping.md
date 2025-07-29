@@ -8,7 +8,5 @@ speakers:
   - jaybobo
 ---
 
-**Link:** [https://github.com/jaybobo](https://github.com/jaybobo)
-
 
 <!-- Add talk description here -->

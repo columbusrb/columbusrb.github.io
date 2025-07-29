@@ -8,7 +8,5 @@ speakers:
   - mattjones
 ---
 
-**Link:** [http://cdn.hiphopwired.com/wp-content/uploads/2009/06/mike-grill2.jpg](http://cdn.hiphopwired.com/wp-content/uploads/2009/06/mike-grill2.jpg)
-
 
 <!-- Add talk description here -->

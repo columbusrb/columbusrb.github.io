@@ -8,7 +8,5 @@ speakers:
   - alexmoore
 ---
 
-**Link:** [https://twitter.com/alexmoore](https://twitter.com/alexmoore)
-
 
 <!-- Add talk description here -->

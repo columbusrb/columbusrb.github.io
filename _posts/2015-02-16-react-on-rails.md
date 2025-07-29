@@ -8,7 +8,5 @@ speakers:
   - grahamconzett
 ---
 
-**Link:** [https://twitter.com/gconzett](https://twitter.com/gconzett)
-
 
 <!-- Add talk description here -->

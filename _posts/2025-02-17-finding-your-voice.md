@@ -8,7 +8,5 @@ speakers:
   - ryancarroll
 ---
 
-**Link:** [https://www.linkedin.com/in/carrollmedia/](https://www.linkedin.com/in/carrollmedia/)
-
 
 <!-- Add talk description here -->

@@ -11,10 +11,36 @@ pagination:
 <div class="space-y-6">
   {% for post in paginator.posts %}
     <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
-      <h2 class="text-xl font-bold text-gray-800 mb-2">
-        <a href="{{post.url}}" class="text-red-600 hover:text-red-800">{{post.title}}</a>
-      </h2>
-      <p class="text-gray-600 text-sm">{{post.date | date_to_long_string: "ordinal", "US"}}</p>
+      <div class="flex justify-between items-start mb-3">
+        <h2 class="text-xl font-bold text-gray-800 mb-2">
+          <a href="{{post.url}}" class="text-red-600 hover:text-red-800">{{post.title}}</a>
+        </h2>
+      </div>
+      <p class="text-gray-600 text-sm mb-3">{{post.date | date_to_long_string: "ordinal", "US"}}</p>
+      
+      {% if post.speakers %}
+        <div class="mb-3">
+          <span class="text-sm font-medium text-gray-700">Speakers: </span>
+          {% for speaker_id in post.speakers %}
+            {% assign speaker = site.data.speakers[speaker_id] %}
+            {% if speaker %}
+              <span class="text-sm text-gray-600">
+                {% if speaker.name %}{{ speaker.name }}{% else %}{{ speaker_id }}{% endif %}{% unless forloop.last %}, {% endunless %}
+              </span>
+            {% else %}
+              <span class="text-sm text-gray-600">{{ speaker_id }}{% unless forloop.last %}, {% endunless %}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      
+      {% if post.link %}
+        <div class="mb-3">
+          <a href="{{ post.link }}" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 underline">
+            🔗 {{ post.link }}
+          </a>
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

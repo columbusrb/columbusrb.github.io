@@ -8,7 +8,5 @@ speakers:
   - warnermoore
 ---
 
-**Link:** [https://speakerdeck.com/wmoore](https://speakerdeck.com/wmoore)
-
 
 <!-- Add talk description here -->

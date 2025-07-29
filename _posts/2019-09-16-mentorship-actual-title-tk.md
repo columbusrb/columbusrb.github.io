@@ -8,7 +8,5 @@ speakers:
   - bradleytemple
 ---
 
-**Link:** [#](#)
-
 
 <!-- Add talk description here -->

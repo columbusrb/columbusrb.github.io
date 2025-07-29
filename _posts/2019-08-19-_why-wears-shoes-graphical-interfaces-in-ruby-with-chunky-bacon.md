@@ -8,7 +8,5 @@ speakers:
   - jamesgifford
 ---
 
-**Link:** [http://armyofminions.com/crb-shoes](http://armyofminions.com/crb-shoes)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - davehoover
 ---
 
-**Link:** [http://devbootcamp.com/](http://devbootcamp.com/)
-
 
 <!-- Add talk description here -->

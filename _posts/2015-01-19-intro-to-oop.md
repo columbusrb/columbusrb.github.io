@@ -8,7 +8,5 @@ speakers:
   - marktareshawty
 ---
 
-**Link:** [http://marktareshawty.com/](http://marktareshawty.com/)
-
 
 <!-- Add talk description here -->

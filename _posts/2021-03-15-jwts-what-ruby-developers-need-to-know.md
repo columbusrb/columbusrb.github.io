@@ -8,7 +8,5 @@ speakers:
   - danmoore
 ---
 
-**Link:** [https://twitter.com/mooreds](https://twitter.com/mooreds)
-
 
 <!-- Add talk description here -->

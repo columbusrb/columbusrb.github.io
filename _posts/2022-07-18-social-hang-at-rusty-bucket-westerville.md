@@ -8,7 +8,5 @@ speakers:
   - clickheretorsvp
 ---
 
-**Link:** [https://www.meetup.com/columbusrb/events/286860404/](https://www.meetup.com/columbusrb/events/286860404/)
-
 
 <!-- Add talk description here -->

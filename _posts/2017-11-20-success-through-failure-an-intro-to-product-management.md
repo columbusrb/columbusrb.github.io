@@ -8,7 +8,5 @@ speakers:
   - derekdehart
 ---
 
-**Link:** [https://www.linkedin.com/in/derekdehart/](https://www.linkedin.com/in/derekdehart/)
-
 
 <!-- Add talk description here -->

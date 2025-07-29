@@ -8,7 +8,5 @@ speakers:
   - chillinformalmeetup
 ---
 
-**Link:** [http://www.columbusrb.com](http://www.columbusrb.com)
-
 
 <!-- Add talk description here -->

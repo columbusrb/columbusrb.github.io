@@ -8,7 +8,5 @@ speakers:
   - nicholasturon
 ---
 
-**Link:** [https://www.linkedin.com/in/nicholasturon/](https://www.linkedin.com/in/nicholasturon/)
-
 
 <!-- Add talk description here -->

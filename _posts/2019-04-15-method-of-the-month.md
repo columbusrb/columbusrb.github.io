@@ -8,7 +8,5 @@ speakers:
   - mariavianello
 ---
 
-**Link:** [https://columbusrb.com](https://columbusrb.com)
-
 
 <!-- Add talk description here -->

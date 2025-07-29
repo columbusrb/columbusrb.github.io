@@ -8,7 +8,5 @@ speakers:
   - willkoehler
 ---
 
-**Link:** [https://twitter.com/wckoehler](https://twitter.com/wckoehler)
-
 
 <!-- Add talk description here -->

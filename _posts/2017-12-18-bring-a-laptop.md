@@ -8,7 +8,5 @@ speakers:
   - hacknight
 ---
 
-**Link:** [https://www.meetup.com/meetup-group-wEkWWOXK/events/244556008/](https://www.meetup.com/meetup-group-wEkWWOXK/events/244556008/)
-
 
 <!-- Add talk description here -->

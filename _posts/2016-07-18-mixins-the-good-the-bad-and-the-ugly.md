@@ -8,7 +8,5 @@ speakers:
   - bobcarsonanddanmanges
 ---
 
-**Link:** [https://www.joinroot.com/company.html](https://www.joinroot.com/company.html)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - robkinyon
 ---
 
-**Link:** [https://twitter.com/rkinyon](https://twitter.com/rkinyon)
-
 
 <!-- Add talk description here -->

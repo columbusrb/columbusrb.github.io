@@ -8,7 +8,5 @@ speakers:
   - brianunderwood
 ---
 
-**Link:** [http://blog.brian-underwood.codes](http://blog.brian-underwood.codes)
-
 
 <!-- Add talk description here -->

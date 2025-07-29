@@ -8,7 +8,5 @@ speakers:
   - chrisvaughn
 ---
 
-**Link:** [https://twitter.com/mistercvaughn](https://twitter.com/mistercvaughn)
-
 
 <!-- Add talk description here -->

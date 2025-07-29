@@ -8,7 +8,5 @@ speakers:
   - mattcrocco
 ---
 
-**Link:** [http://matthewcrocco.us/](http://matthewcrocco.us/)
-
 
 <!-- Add talk description here -->

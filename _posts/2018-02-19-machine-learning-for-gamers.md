@@ -8,7 +8,5 @@ speakers:
   - guyroyse
 ---
 
-**Link:** [https://twitter.com/guyroyse](https://twitter.com/guyroyse)
-
 
 <!-- Add talk description here -->

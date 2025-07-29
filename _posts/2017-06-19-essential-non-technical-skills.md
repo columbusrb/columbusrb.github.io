@@ -8,7 +8,5 @@ speakers:
   - nikolanovakovic
 ---
 
-**Link:** [http://novarac.com](http://novarac.com)
-
 
 <!-- Add talk description here -->

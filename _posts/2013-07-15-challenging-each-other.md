@@ -8,7 +8,5 @@ speakers:
   - johncolvin
 ---
 
-**Link:** [https://twitter.com/jcolv](https://twitter.com/jcolv)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - adammccrea
 ---
 
-**Link:** [https://twitter.com/adamlogic](https://twitter.com/adamlogic)
-
 
 <!-- Add talk description here -->

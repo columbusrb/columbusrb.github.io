@@ -8,7 +8,5 @@ speakers:
   - bradleytemple
 ---
 
-**Link:** [https://github.com/DVG](https://github.com/DVG)
-
 
 <!-- Add talk description here -->

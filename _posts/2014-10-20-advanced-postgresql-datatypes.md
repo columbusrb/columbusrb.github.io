@@ -8,7 +8,5 @@ speakers:
   - mattjones
 ---
 
-**Link:** [http://content6.flixster.com/photo/12/68/69/12686960_ori.jpg](http://content6.flixster.com/photo/12/68/69/12686960_ori.jpg)
-
 
 <!-- Add talk description here -->

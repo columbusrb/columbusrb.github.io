@@ -8,7 +8,5 @@ speakers:
   - rjosborne
 ---
 
-**Link:** [twitter.com/rjo1970](twitter.com/rjo1970)
-
 
 <!-- Add talk description here -->

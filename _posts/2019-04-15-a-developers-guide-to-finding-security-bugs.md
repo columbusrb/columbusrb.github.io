@@ -8,7 +8,5 @@ speakers:
   - billsempf
 ---
 
-**Link:** [https://sempf.net/](https://sempf.net/)
-
 
 <!-- Add talk description here -->

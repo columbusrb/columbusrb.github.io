@@ -8,7 +8,5 @@ speakers:
   - josephbeale
 ---
 
-**Link:** [http://www.meetup.com/techlifecolumbus/members/42193522/](http://www.meetup.com/techlifecolumbus/members/42193522/)
-
 
 <!-- Add talk description here -->

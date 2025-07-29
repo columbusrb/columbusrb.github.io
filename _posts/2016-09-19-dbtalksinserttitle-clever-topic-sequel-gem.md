@@ -8,7 +8,5 @@ speakers:
   - petermueller
 ---
 
-**Link:** [https://twitter.com/felix_starman](https://twitter.com/felix_starman)
-
 
 <!-- Add talk description here -->

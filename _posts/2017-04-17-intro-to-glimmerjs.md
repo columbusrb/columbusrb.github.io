@@ -8,7 +8,5 @@ speakers:
   - kevinpfefferle
 ---
 
-**Link:** [http://twitter.com/kpfefferle](http://twitter.com/kpfefferle)
-
 
 <!-- Add talk description here -->

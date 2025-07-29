@@ -8,7 +8,5 @@ speakers:
   - kriskling
 ---
 
-**Link:** [https://localtechheroes.com](https://localtechheroes.com)
-
 
 <!-- Add talk description here -->

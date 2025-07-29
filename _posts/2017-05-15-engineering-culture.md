@@ -8,7 +8,5 @@ speakers:
   - mikedoel
 ---
 
-**Link:** [https://www.mutuallyhuman.com/team/mike-doel](https://www.mutuallyhuman.com/team/mike-doel)
-
 
 <!-- Add talk description here -->

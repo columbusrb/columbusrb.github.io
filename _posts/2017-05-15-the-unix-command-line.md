@@ -8,7 +8,5 @@ speakers:
   - lenjaffe
 ---
 
-**Link:** [http://jaffesystems.com](http://jaffesystems.com)
-
 
 <!-- Add talk description here -->

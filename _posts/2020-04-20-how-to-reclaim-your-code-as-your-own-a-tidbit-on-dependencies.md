@@ -8,7 +8,5 @@ speakers:
   - lukasindre
 ---
 
-**Link:** [https://www.linkedin.com/in/lukas-indre-1269b384/](https://www.linkedin.com/in/lukas-indre-1269b384/)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - danielmartinez
 ---
 
-**Link:** [http://twitter.com/mdanmartinez](http://twitter.com/mdanmartinez)
-
 
 <!-- Add talk description here -->

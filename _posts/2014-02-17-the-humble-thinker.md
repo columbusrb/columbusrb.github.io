@@ -8,7 +8,5 @@ speakers:
   - mikedoel
 ---
 
-**Link:** [http://www.neo.com/offices/columbus](http://www.neo.com/offices/columbus)
-
 
 <!-- Add talk description here -->

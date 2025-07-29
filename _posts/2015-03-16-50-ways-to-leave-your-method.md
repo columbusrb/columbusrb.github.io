@@ -8,7 +8,5 @@ speakers:
   - mattjones
 ---
 
-**Link:** [http://whomikejones.com/](http://whomikejones.com/)
-
 
 <!-- Add talk description here -->

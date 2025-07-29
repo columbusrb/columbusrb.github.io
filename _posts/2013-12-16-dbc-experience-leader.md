@@ -8,7 +8,5 @@ speakers:
   - davehoover
 ---
 
-**Link:** [https://twitter.com/davehoover](https://twitter.com/davehoover)
-
 
 <!-- Add talk description here -->

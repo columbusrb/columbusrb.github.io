@@ -8,7 +8,5 @@ speakers:
   - rachelslaby
 ---
 
-**Link:** [https://github.com/columbusrb](https://github.com/columbusrb)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - jayshenk
 ---
 
-**Link:** [http://jayshenk.com](http://jayshenk.com)
-
 
 <!-- Add talk description here -->

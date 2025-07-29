@@ -8,7 +8,5 @@ speakers:
   - richardrickardjr
 ---
 
-**Link:** [https://twitter.com/rrickardjr](https://twitter.com/rrickardjr)
-
 
 <!-- Add talk description here -->

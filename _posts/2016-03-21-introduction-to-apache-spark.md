@@ -8,7 +8,5 @@ speakers:
   - ryanboder
 ---
 
-**Link:** [http://spark.apache.org/](http://spark.apache.org/)
-
 
 <!-- Add talk description here -->

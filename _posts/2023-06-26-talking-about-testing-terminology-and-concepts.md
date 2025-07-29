@@ -8,7 +8,5 @@ speakers:
   - brianjbayer
 ---
 
-**Link:** [http://www.linkedin.com/in/brianjbayer](http://www.linkedin.com/in/brianjbayer)
-
 
 <!-- Add talk description here -->

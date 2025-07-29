@@ -8,7 +8,5 @@ speakers:
   - derekbriggs
 ---
 
-**Link:** [https://twitter.com/pixeljanitor](https://twitter.com/pixeljanitor)
-
 
 <!-- Add talk description here -->

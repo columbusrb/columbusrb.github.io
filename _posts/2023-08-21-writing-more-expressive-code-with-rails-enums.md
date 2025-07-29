@@ -8,7 +8,5 @@ speakers:
   - jasonrobinaugh
 ---
 
-**Link:** [https://www.emporatitle.com/](https://www.emporatitle.com/)
-
 
 <!-- Add talk description here -->

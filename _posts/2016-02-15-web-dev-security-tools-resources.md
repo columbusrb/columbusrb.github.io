@@ -8,7 +8,5 @@ speakers:
   - joshuapaulson
 ---
 
-**Link:** [https://pbs.twimg.com/profile_images/627865674099085312/jt84wM-T.jpg](https://pbs.twimg.com/profile_images/627865674099085312/jt84wM-T.jpg)
-
 
 <!-- Add talk description here -->

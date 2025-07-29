@@ -8,7 +8,5 @@ speakers:
   - mattdarby
 ---
 
-**Link:** [http://getcarina.com](http://getcarina.com)
-
 
 <!-- Add talk description here -->

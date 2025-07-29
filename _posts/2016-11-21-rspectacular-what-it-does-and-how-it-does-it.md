@@ -8,7 +8,5 @@ speakers:
   - marlenabowenpedrocoronel
 ---
 
-**Link:** [http://joinroot.com](http://joinroot.com)
-
 
 <!-- Add talk description here -->

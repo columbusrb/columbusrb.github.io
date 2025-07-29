@@ -8,7 +8,5 @@ speakers:
   - mattwilliams
 ---
 
-**Link:** [#](#)
-
 
 <!-- Add talk description here -->

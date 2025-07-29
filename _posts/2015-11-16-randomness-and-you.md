@@ -8,7 +8,5 @@ speakers:
   - chrisbarthol
 ---
 
-**Link:** [chrisbarthol.github.io](chrisbarthol.github.io)
-
 
 <!-- Add talk description here -->

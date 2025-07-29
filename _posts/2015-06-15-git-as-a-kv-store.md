@@ -8,7 +8,5 @@ speakers:
   - redleatherpants
 ---
 
-**Link:** [https://twitter.com/yburyug](https://twitter.com/yburyug)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - ryankowalick
 ---
 
-**Link:** [rkowalick@gmail.com](rkowalick@gmail.com)
-
 
 <!-- Add talk description here -->

@@ -8,7 +8,5 @@ speakers:
   - chandutennety
 ---
 
-**Link:** [https://twitter.com/tennety](https://twitter.com/tennety)
-
 
 <!-- Add talk description here -->

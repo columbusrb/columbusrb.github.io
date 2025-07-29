@@ -8,7 +8,5 @@ speakers:
   - techcommunitysummerfest
 ---
 
-**Link:** [https://www.eventbrite.com/e/tech-community-summerfest-tickets-634488972597](https://www.eventbrite.com/e/tech-community-summerfest-tickets-634488972597)
-
 
 <!-- Add talk description here -->
