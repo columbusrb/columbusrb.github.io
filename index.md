@@ -6,36 +6,60 @@ title: "Home"
 {% assign next = site.posts.first %}
 {% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">Next Meeting</h2>
-  <div class="grid md:grid-cols-2 gap-6">
-    <div class="talks space-y-4">
-      {% for talk in talks %}
-      <div class="talk bg-gray-50 rounded-lg p-4">
-        <p class="mb-2">
-          <span class="font-semibold text-gray-700">Talk:</span>
-          <a href="{{talk.url}}" class="text-red-600 hover:text-red-800 font-medium">{{ talk.title }}</a>
-        </p>
-        <p class="font-semibold text-gray-700 mb-2">Speaker(s):</p>
-        <ul class="list-disc list-inside space-y-1">
-        {% for speaker_id in talk.speakers %}
-            {% assign speaker = site.data.speakers[speaker_id] %}
-            <li class="text-gray-600">{{speaker.name}}</li>
-        {% endfor %}
-        </ul>
-      </div>
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Next Meeting - {{ next.date | date: "%B %-d, %Y" }} 6:30pm</h2>
+  <div class="talks space-y-4">
+    {% for talk in talks %}
+    <div class="talk bg-gray-50 rounded-lg p-4">
+      <p class="mb-2">
+        <span class="font-semibold text-gray-700">Talk:</span>
+        <a href="{{talk.url}}" class="text-red-600 hover:text-red-800 font-medium">{{ talk.title }}</a>
+      </p>
+      <p class="font-semibold text-gray-700 mb-2">Speaker(s):</p>
+      <ul class="list-disc list-inside space-y-1">
+      {% for speaker_id in talk.speakers %}
+          {% assign speaker = site.data.speakers[speaker_id] %}
+          <li class="text-gray-600">{{speaker.name}}</li>
       {% endfor %}
-      <div class="space-y-2 text-gray-600">
-        <p><span class="font-semibold">When:</span> {{ next.date | date: "%B %-d, %Y" }} 6:30pm</p>
-        <p><span class="font-semibold">Where:</span>
-          <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="text-red-600 hover:text-red-800">
-            CoverMyMeds - 910 John St, Columbus, OH 43222
-          </a>
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Location</h2>
+  <div class="flex flex-col md:flex-row md:items-center gap-6">
+    <div class="flex-1">
+      <p class="text-lg text-gray-700">
+        <span class="font-semibold">Where:</span>
+        <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="text-red-600 hover:text-red-800 font-medium">
+          CoverMyMeds - 910 John St, Columbus, OH 43222
+        </a>
+      </p>
+    </div>
+    <div class="flex-shrink-0 w-full md:w-80">
+      <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="block">
+        <img src="/assets/images/map.png" alt="Meeting location map" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Parking</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="space-y-4">
+      <div class="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+        <p class="text-sm text-gray-700">
+          <span class="font-semibold text-blue-800">Parking & Arrival:</span> 
+          Parking in the garage is no longer available. Please park in front of the main entrance or the wedge lot (see parking map). 
+          Orange Barrel Media has graciously allowed us to park in their lot as well. Doors are open until 6pm. After 6pm security will need to let you in.
         </p>
       </div>
     </div>
-    <div class="location">
-      <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="block">
-        <img src="/assets/images/map.png" alt="Meeting location map" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
+    <div class="parking-map md:col-span-2">
+      <a href="/assets/images/parking_map.png" target="_blank" class="block">
+        <img src="/assets/images/parking_map.png" alt="Parking map showing available parking areas" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
       </a>
     </div>
   </div>
