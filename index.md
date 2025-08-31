@@ -14,13 +14,33 @@ title: "Home"
         <span class="font-semibold text-gray-700">Talk:</span>
         <a href="{{talk.url}}" class="text-red-600 hover:text-red-800 font-medium">{{ talk.title }}</a>
       </p>
-      <p class="font-semibold text-gray-700 mb-2">Speaker(s):</p>
-      <ul class="list-disc list-inside space-y-1">
-      {% for speaker_id in talk.speakers %}
-          {% assign speaker = site.data.speakers[speaker_id] %}
-          <li class="text-gray-600">{{speaker.name}}</li>
-      {% endfor %}
-      </ul>
+      {% if talk.speakers.size > 1 %}
+        <p class="font-semibold text-gray-700 mb-2">Speakers:</p>
+        <ul class="list-disc list-inside space-y-2 mb-3">
+        {% for speaker_id in talk.speakers %}
+            {% assign speaker = site.data.speakers[speaker_id] %}
+            <li class="text-gray-600">
+              <span class="font-medium">{{speaker.name}}</span>
+              {% if talk.content %}
+                <span class="text-gray-700 text-sm leading-relaxed"> - {{ talk.content | strip_html }}</span>
+              {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+      {% else %}
+        <p class="font-semibold text-gray-700 mb-2">Speaker:</p>
+        <ul class="list-disc list-inside space-y-1 mb-3">
+        {% for speaker_id in talk.speakers %}
+            {% assign speaker = site.data.speakers[speaker_id] %}
+            <li class="text-gray-600">{{speaker.name}}</li>
+        {% endfor %}
+        </ul>
+        {% if talk.content %}
+        <div class="text-gray-700 text-sm leading-relaxed">
+          {{ talk.content | strip_html }}
+        </div>
+        {% endif %}
+      {% endif %}
     </div>
     {% endfor %}
   </div>
