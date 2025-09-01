@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "ChoreMonster Code/Tools Overview"
+title: ChoreMonster Code/Tools Overview
 date: 2012-06-18
-meeting_id: 163
 speakers:
-  - kevinpfefferle
+- name: Kevin Pfefferle
 ---
-
-
-<!-- Add talk description here -->

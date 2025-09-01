@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Guard Overview"
+title: Guard Overview
 date: 2011-11-21
-meeting_id: 149
 speakers:
-  - isaacsanders
+- name: Isaac Sanders
 ---
-
-
-<!-- Add talk description here -->

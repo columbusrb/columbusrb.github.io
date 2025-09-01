@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "CQRS and Event Sourcing"
+title: CQRS and Event Sourcing
 date: 2012-03-19
-meeting_id: 157
 speakers:
-  - robertjuliano
+- name: Robert Juliano
 ---
-
-
-<!-- Add talk description here -->

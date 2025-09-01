@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "A Funny Thing Happened on the way to Infinity"
+title: A Funny Thing Happened on the way to Infinity
 date: 2018-05-21
-meeting_id: 297
 speakers:
-  - rachelslaby
+- name: Rachel Slaby
 ---
-
-
-<!-- Add talk description here -->

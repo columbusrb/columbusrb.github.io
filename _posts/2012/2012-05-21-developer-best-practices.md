@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Developer Best Practices"
+title: Developer Best Practices
 date: 2012-05-21
-meeting_id: 161
 speakers:
-  - mattwilliams
+- name: Matt Williams
 ---
-
-
-<!-- Add talk description here -->

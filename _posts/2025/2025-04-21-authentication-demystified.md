@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Authentication Demystified: Basic Auth to Web Tokens in 60 minutes"
+title: 'Authentication Demystified: Basic Auth to Web Tokens in 60 minutes'
 link: https://sessionize.com/s/seth-petry-johnson/authentication-demystified-basic-auth-to-web-token/104729
 speakers:
-  - spetryjohnson
+- name: Seth Petry-Johnson
+  linkedin: sethpetryjohnson
+  x-twitter: spetryjohnson
 ---
-
 Have you ever searched for "how to authenticate an API call" and been confused by the dizzying array of techniques, terminology, jargon, and acronyms that come back?
 
 This session is designed for anyone that's struggling to make sense of modern authentication options. You'll learn the differences between OAuth, API Keys, HMAC, JSON Web Tokens (JWT), SAML, OpenID Connect, and passkeys using Webauthn. Each technique will be explained in a clear, practical, easy-to-understand way.

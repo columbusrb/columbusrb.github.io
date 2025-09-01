@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "CRB Board of Directors election process"
+title: CRB Board of Directors election process
 date: 2024-11-18
-meeting_id: 502
 link: https://www.linkedin.com/in/belongstorachel/
 speakers:
-  - rachelslaby
+- name: Rachel Slaby
 ---
-
-
-<!-- Add talk description here -->

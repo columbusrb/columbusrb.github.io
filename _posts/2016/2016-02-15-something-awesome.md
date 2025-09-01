@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Something Awesome"
+title: Something Awesome
 date: 2016-02-15
-meeting_id: 251
 link: http://skillcrush.com/wp-content/uploads/2012/05/tumblr_m3i4qdmtUS1rr8p66o1_500.jpg
 speakers:
-  - erickessler
+- name: Eric Kessler
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "SQL Injections"
+title: SQL Injections
 date: 2016-08-15
-meeting_id: 263
-link: https://twitter.com/rrickardjr
 speakers:
-  - rickyrickardjr
+- name: Ricky Rickard Jr.
+  x-twitter: rrickardjr
 ---
-
-
-<!-- Add talk description here -->

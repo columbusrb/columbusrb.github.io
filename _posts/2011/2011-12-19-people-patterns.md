@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "People Patterns"
+title: People Patterns
 date: 2011-12-19
-meeting_id: 151
 speakers:
-  - joeobrien
+- name: Joe O'Brien
 ---
-
-
-<!-- Add talk description here -->

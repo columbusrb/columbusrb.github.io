@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Nobody Will Train You But You"
+title: Nobody Will Train You But You
 date: 2013-03-18
-meeting_id: 181
-link: twitter.com/theotherzach
 speakers:
-  - zachbriggs
+- name: Zach Briggs
+  x-twitter: theotherzach
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "An Introduction to WebAssembly"
+title: An Introduction to WebAssembly
 date: 2019-11-18
-meeting_id: 315
 link: http://guyroyse.com/
 speakers:
-  - guyroyse
+- name: Guy Royse
+  linkedin: groyse
+  x-twitter: guyroyse
+  github: guyroyse
+  web: http://guyroyse.com/
 ---
-
-
-<!-- Add talk description here -->

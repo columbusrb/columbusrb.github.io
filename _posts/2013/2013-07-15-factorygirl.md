@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "FactoryGirl"
+title: FactoryGirl
 date: 2013-07-15
-meeting_id: 189
-link: https://github.com/DVG
 speakers:
-  - bradleytemple
+- name: Bradley Temple
+  github: DVG
 ---
-
-
-<!-- Add talk description here -->

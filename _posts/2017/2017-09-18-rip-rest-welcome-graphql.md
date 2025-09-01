@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "RIP REST, Welcome GraphQL"
+title: RIP REST, Welcome GraphQL
 date: 2017-09-18
-meeting_id: 289
 link: https://www.matchedpattern.com/
 speakers:
-  - mattdarby
+- name: Matt Darby
 ---
-
-
-<!-- Add talk description here -->

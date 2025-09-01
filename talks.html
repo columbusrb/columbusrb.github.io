@@ -8,40 +8,69 @@ pagination:
   permalink: talks/:num.html
 ---
 
-<div class="space-y-6">
+<div class="space-y-8">
   {% for post in paginator.posts %}
-    <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
-      <div class="flex justify-between items-start mb-3">
-        <h2 class="text-xl font-bold text-gray-800 mb-2">
-          <a href="{{post.url}}" class="text-red-600 hover:text-red-800">{{post.title}}</a>
-        </h2>
-      </div>
-      <p class="text-gray-600 text-sm mb-3">{{post.date | date_to_long_string: "ordinal", "US"}}</p>
-      
-      {% if post.speakers %}
-        <div class="mb-3">
-          <span class="text-sm font-medium text-gray-700">Speakers: </span>
-          {% for speaker_id in post.speakers %}
-            {% assign speaker = site.data.speakers[speaker_id] %}
-            {% if speaker %}
-              <span class="text-sm text-gray-600">
-                {% if speaker.name %}{{ speaker.name }}{% else %}{{ speaker_id }}{% endif %}{% unless forloop.last %}, {% endunless %}
-              </span>
-            {% else %}
-              <span class="text-sm text-gray-600">{{ speaker_id }}{% unless forloop.last %}, {% endunless %}</span>
-            {% endif %}
+          <article class="bg-white rounded-lg shadow-lg p-8">
+        <p class="text-gray-600 text-lg mb-6">{{ post.date | date: "%B %-d, %Y" }}</p>
+        
+        <!-- Title and Content Section -->
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">{{ post.title }}</h2>
+        
+        <!-- External Link -->
+        {% if post.link %}
+          <div class="mb-6">
+            <a href="{{ post.link }}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              More Details
+            </a>
+          </div>
+        {% endif %}
+        
+        {% assign clean_content = post.content | strip %}
+        {% assign content_size = clean_content | size %}
+        {% if content_size > 0 %}
+          <div class="mb-6">
+            <div class="prose prose-lg max-w-none">
+              {{ post.content }}
+            </div>
+          </div>
+        {% endif %}
+        
+        <!-- Speakers Section at Bottom -->
+        {% if post.speakers %}
+          {% for speaker in post.speakers %}
+            <div class="speaker bg-gray-50 rounded-lg p-4 mb-4">
+              <div class="flex items-center justify-between">
+                <span class="text-lg font-semibold text-gray-800">{{ speaker.name }}</span>
+                <div class="social flex space-x-3">
+                  {% if speaker.linkedin %}
+                    <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                      <img src="/assets/images/linkedin.svg" alt="LinkedIn" class="h-5 w-5" />
+                    </a>
+                  {% endif %}
+                  {% if speaker.x-twitter %}
+                    <a href="https://x.com/{{ speaker.x-twitter }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                      <img src="/assets/images/x-twitter.svg" alt="X" class="h-5 w-5" />
+                    </a>
+                  {% endif %}
+                  {% if speaker.github %}
+                    <a href="https://github.com/{{ speaker.github }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                      <img src="/assets/images/github.svg" alt="GitHub" class="h-5 w-5" />
+                    </a>
+                  {% endif %}
+                  {% if speaker.web %}
+                    <a href="{{ speaker.web }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                      <img src="/assets/images/link.svg" alt="link" class="h-5 w-5" />
+                    </a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
           {% endfor %}
-        </div>
-      {% endif %}
-      
-      {% if post.link %}
-        <div class="mb-3">
-          <a href="{{ post.link }}" target="_blank" class="text-sm text-blue-600 hover:text-blue-800 underline">
-            🔗 {{ post.link }}
-          </a>
-        </div>
-      {% endif %}
-    </div>
+        {% endif %}
+    </article>
   {% endfor %}
 </div>
 

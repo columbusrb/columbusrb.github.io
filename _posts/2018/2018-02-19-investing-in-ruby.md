@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Investing in Ruby"
+title: Investing in Ruby
 date: 2018-02-19
-meeting_id: 294
 speakers:
-  - thomaslucero
+- name: Thomas Lucero
 ---
-
-
-<!-- Add talk description here -->

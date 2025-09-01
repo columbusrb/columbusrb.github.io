@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Making our users feel great"
+title: Making our users feel great
 date: 2013-03-18
-meeting_id: 181
-link: twitter.com/joshwalsh
 speakers:
-  - joshwalsh
+- name: Josh Walsh
+  x-twitter: joshwalsh
 ---
-
-
-<!-- Add talk description here -->

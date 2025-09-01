@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "CSS with a shot of Bourbon"
+title: CSS with a shot of Bourbon
 date: 2014-01-20
-meeting_id: 201
-link: https://twitter.com/pixeljanitor
 speakers:
-  - derekbriggs
+- name: Derek Briggs
+  x-twitter: pixeljanitor
 ---
-
-
-<!-- Add talk description here -->

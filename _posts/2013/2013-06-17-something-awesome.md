@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Something Awesome"
+title: Something Awesome
 date: 2013-06-17
-meeting_id: 187
-link: https://twitter.com/tarebyte
 speakers:
-  - marktareshawty
+- name: Mark Tareshawty
+  x-twitter: tarebyte
 ---
-
-
-<!-- Add talk description here -->

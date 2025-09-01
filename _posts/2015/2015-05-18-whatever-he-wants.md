@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Whatever He Wants"
+title: Whatever He Wants
 date: 2015-05-18
-meeting_id: 233
 link: http://penis.florist
 speakers:
-  - danko
+- name: DANKO
 ---
-
-
-<!-- Add talk description here -->

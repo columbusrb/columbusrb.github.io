@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Responsive Data Tables"
+title: Responsive Data Tables
 date: 2015-06-15
-meeting_id: 235
-link: https://twitter.com/pixeljanitor
 speakers:
-  - derekbriggs
+- name: Derek Briggs
+  x-twitter: pixeljanitor
 ---
-
-
-<!-- Add talk description here -->

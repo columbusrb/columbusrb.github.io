@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Docker Compose"
+title: Docker Compose
 date: 2015-07-20
-meeting_id: 237
 link: http://penis.florist
 speakers:
-  - mattdarby
+- name: Matt Darby
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Bringing situational awareness to observability with Grafana and Prometheus"
+title: Bringing situational awareness to observability with Grafana and Prometheus
 date: 2025-04-21
-meeting_id: 634
-link: https://www.linkedin.com/in/christophroedig/
 speakers:
-  - chrisroedig
+- name: Chris Roedig
+  linkedin: christophroedig
 ---
-
-
-<!-- Add talk description here -->

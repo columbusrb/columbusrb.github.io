@@ -6,42 +6,68 @@ title: "Home"
 {% assign next = site.posts.first %}
 {% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">Next Meeting - {{ next.date | date: "%B %-d, %Y" }} 6:30pm</h2>
-  <div class="talks space-y-4">
+  <h2 class="text-2xl font-bold text-gray-800 mb-6">Next Meeting - {{ next.date | date: "%B %-d, %Y" }} 6:30pm</h2>
+  <div class="space-y-8">
     {% for talk in talks %}
-    <div class="talk bg-gray-50 rounded-lg p-4">
-      <p class="mb-2">
-        <span class="font-semibold text-gray-700">Talk:</span>
-        <a href="{{talk.url}}" class="text-red-600 hover:text-red-800 font-medium">{{ talk.title }}</a>
-      </p> 
-      {% if talk.speakers.size > 1 %}
-        <p class="font-semibold text-gray-700 mb-2">Speakers:</p>
-        <ul class="list-disc list-inside space-y-2 mb-3">
-        {% for speaker_id in talk.speakers %}
-            {% assign speaker = site.data.speakers[speaker_id] %}
-            <li class="text-gray-600">
-              <span class="font-medium">{{speaker.name}}</span>
-              {% if talk.content %}
-                <span class="text-gray-700 text-sm leading-relaxed"> - {{ talk.content | strip_html }}</span>
-              {% endif %}
-            </li>
-        {% endfor %}
-        </ul>
-      {% else %}
-        <p class="font-semibold text-gray-700 mb-2">Speaker:</p>
-        <ul class="list-disc list-inside space-y-1 mb-3">
-        {% for speaker_id in talk.speakers %}
-            {% assign speaker = site.data.speakers[speaker_id] %}
-            <li class="text-gray-600">{{speaker.name}}</li>
-        {% endfor %}
-        </ul>
-        {% if talk.content %}
-        <div class="text-gray-700 text-sm leading-relaxed">
-          {{ talk.content | strip_html }}
+    <article class="bg-gray-50 rounded-lg p-6 border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-200">
+      <!-- Title and Content Section -->
+      <h3 class="text-2xl font-bold text-gray-800 mb-4">{{ talk.title }}</h3>
+      
+      <!-- External Link -->
+      {% if talk.link %}
+        <div class="mb-6">
+          <a href="{{ talk.link }}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            More Details
+          </a>
         </div>
-        {% endif %}
       {% endif %}
-    </div>
+      
+      {% assign clean_content = talk.content | strip %}
+      {% assign content_size = clean_content | size %}
+      {% if content_size > 0 %}
+        <div class="mb-6">
+          <div class="prose prose-lg max-w-none">
+            {{ talk.content }}
+          </div>
+        </div>
+      {% endif %}
+      
+      <!-- Speakers Section at Bottom -->
+      {% if talk.speakers %}
+        {% for speaker in talk.speakers %}
+          <div class="speaker bg-white rounded-lg p-4 mb-3 border border-gray-200">
+            <div class="flex items-center justify-between">
+              <span class="text-base font-medium text-gray-700">{{ speaker.name }}</span>
+              <div class="social flex space-x-3">
+                {% if speaker.linkedin %}
+                  <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                    <img src="/assets/images/linkedin.svg" alt="LinkedIn" class="h-5 w-5" />
+                  </a>
+                {% endif %}
+                {% if speaker.x-twitter %}
+                  <a href="https://x.com/{{ speaker.x-twitter }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                    <img src="/assets/images/x-twitter.svg" alt="X" class="h-5 w-5" />
+                  </a>
+                {% endif %}
+                {% if speaker.github %}
+                  <a href="https://github.com/{{ speaker.github }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                    <img src="/assets/images/github.svg" alt="GitHub" class="h-5 w-5" />
+                  </a>
+                {% endif %}
+                {% if speaker.web %}
+                  <a href="{{ speaker.web }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
+                    <img src="/assets/images/link.svg" alt="link" class="h-5 w-5" />
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </article>
     {% endfor %}
   </div>
 </div>
@@ -51,9 +77,9 @@ title: "Home"
   
   <!-- Location Section -->
   <div class="mb-8">
-    <h3 class="text-lg font-semibold text-gray-800 mb-4">Meeting Location</h3>
     <div class="flex flex-col md:flex-row md:items-center gap-6">
       <div class="flex-1">
+        <h3 class="text-lg font-semibold text-gray-800 mb-2">Meeting Location</h3>
         <p class="text-lg text-gray-700 mb-2">
           <span class="font-semibold">Where:</span>
           <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="text-red-600 hover:text-red-800 font-medium">

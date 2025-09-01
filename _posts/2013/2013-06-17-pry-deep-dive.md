@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Pry deep dive"
+title: Pry deep dive
 date: 2013-06-17
-meeting_id: 187
-link: https://twitter.com/Saterus
 speakers:
-  - alexburkhart
+- name: Alex Burkhart
+  x-twitter: Saterus
 ---
-
-
-<!-- Add talk description here -->

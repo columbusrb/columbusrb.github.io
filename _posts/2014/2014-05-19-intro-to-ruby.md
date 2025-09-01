@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Intro to Ruby"
+title: Intro to Ruby
 date: 2014-05-19
-meeting_id: 209
-link: https://twitter.com/tennety
 speakers:
-  - chandutennety
+- name: Chandu Tennety
+  x-twitter: tennety
 ---
-
-
-<!-- Add talk description here -->

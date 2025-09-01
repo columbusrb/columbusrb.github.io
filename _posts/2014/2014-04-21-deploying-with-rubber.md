@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Deploying with Rubber"
+title: Deploying with Rubber
 date: 2014-04-21
-meeting_id: 207
-link: https://twitter.com/wckoehler
 speakers:
-  - willkoehler
+- name: Will Koehler
+  x-twitter: wckoehler
 ---
-
-
-<!-- Add talk description here -->

@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Sinatra as CMS"
+title: Sinatra as CMS
 date: 2011-11-21
-meeting_id: 149
 speakers:
-  - jonathanhogue
+- name: Jonathan Hogue
 ---
-
-
-<!-- Add talk description here -->

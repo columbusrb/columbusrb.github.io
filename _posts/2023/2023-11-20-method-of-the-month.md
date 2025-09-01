@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Method of the Month"
+title: Method of the Month
 date: 2023-11-20
-meeting_id: 363
 speakers:
-  - carolineibbotson
+- name: Caroline Ibbotson
 ---
-
-
-<!-- Add talk description here -->

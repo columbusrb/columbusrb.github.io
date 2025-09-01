@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "ActiveRecord Scopes"
+title: ActiveRecord Scopes
 date: 2018-05-21
-meeting_id: 297
 speakers:
-  - mikegee
+- name: Mike Gee
 ---
-
-
-<!-- Add talk description here -->

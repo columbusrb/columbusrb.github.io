@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Mastering concurrency with this one weird, old tip"
+title: Mastering concurrency with this one weird, old tip
 date: 2014-02-17
-meeting_id: 203
 link: https://www.covermymeds.com/main
 speakers:
-  - marklorenzmichaelgee
+- name: Mark Lorenz & Michael Gee
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Game Dev with Gosu"
+title: Game Dev with Gosu
 date: 2015-04-20
-meeting_id: 231
-link: https://twitter.com/mistercvaughn
 speakers:
-  - chrisvaughn
+- name: Chris VAUGHN
+  x-twitter: mistercvaughn
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "React on Rails"
+title: React on Rails
 date: 2015-02-16
-meeting_id: 227
-link: https://twitter.com/gconzett
 speakers:
-  - grahamconzett
+- name: Graham Conzett
+  x-twitter: gconzett
 ---
-
-
-<!-- Add talk description here -->

@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Ruby Float() Bug"
+title: Ruby Float() Bug
 date: 2018-08-20
-meeting_id: 300
 speakers:
-  - samnapolitano
+- name: Sam Napolitano
 ---
-
-
-<!-- Add talk description here -->

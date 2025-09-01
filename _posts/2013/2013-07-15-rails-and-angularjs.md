@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Rails and AngularJS"
+title: Rails and AngularJS
 date: 2013-07-15
-meeting_id: 189
 link: https://github.com/KurtRMueller/SmartDeck
 speakers:
-  - kurtmueller
+- name: Kurt Mueller
 ---
-
-
-<!-- Add talk description here -->

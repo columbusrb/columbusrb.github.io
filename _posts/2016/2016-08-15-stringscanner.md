@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "StringScanner"
+title: StringScanner
 date: 2016-08-15
-meeting_id: 263
-link: https://twitter.com/al2o3cr
 speakers:
-  - mattjones
+- name: Matt JONES
+  x-twitter: al2o3cr
 ---
-
-
-<!-- Add talk description here -->

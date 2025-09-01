@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Newb Mongo Mistakes"
+title: Newb Mongo Mistakes
 date: 2013-05-20
-meeting_id: 185
-link: twitter.com/jonhogue
 speakers:
-  - jonhogue
+- name: Jon Hogue
+  x-twitter: jonhogue
 ---
-
-
-<!-- Add talk description here -->

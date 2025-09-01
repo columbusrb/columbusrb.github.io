@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Buildin’ JSON with ERB"
+title: Buildin’ JSON with ERB
 date: 2024-03-18
-meeting_id: 366
 speakers:
-  - grahamconzett
+- name: Graham Conzett
 ---
-
-
-<!-- Add talk description here -->

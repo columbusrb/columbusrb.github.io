@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Crystal in the Wild—How a Ruby-Inspired Language Can Enhance Your Rails App"
+title: Crystal in the Wild—How a Ruby-Inspired Language Can Enhance Your Rails App
 date: 2022-04-18
-meeting_id: 344
-link: https://twitter.com/adamlogic
 speakers:
-  - adammccrea
+- name: Adam McCrea
+  x-twitter: adamlogic
 ---
-
-
-<!-- Add talk description here -->

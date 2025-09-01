@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Rails Security"
+title: Rails Security
 date: 2013-09-16
-meeting_id: 193
-link: 
+link:
 speakers:
-  - jesscanady
+- name: Jess Canady
 ---
-
-
-<!-- Add talk description here -->

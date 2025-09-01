@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Authorization in Ruby: POROs, Patterns, and Testing"
+title: 'Authorization in Ruby: POROs, Patterns, and Testing'
 date: 2017-03-20
-meeting_id: 277
 link: http://jimcavoli.com/
 speakers:
-  - jimcavoli
+- name: Jim Cavoli
 ---
-
-
-<!-- Add talk description here -->

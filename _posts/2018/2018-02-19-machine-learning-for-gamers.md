@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Machine Learning for Gamers"
+title: Machine Learning for Gamers
 date: 2018-02-19
-meeting_id: 294
-link: https://twitter.com/guyroyse
 speakers:
-  - guyroyse
+- name: Guy Royse
+  linkedin: groyse
+  x-twitter: guyroyse
+  github: guyroyse
+  web: http://guyroyse.com/
 ---
-
-
-<!-- Add talk description here -->

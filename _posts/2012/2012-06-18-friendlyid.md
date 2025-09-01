@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "FriendlyID"
+title: FriendlyID
 date: 2012-06-18
-meeting_id: 163
 speakers:
-  - lenjaffe
+- name: Len Jaffe
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "5 Amazing Pry Tricks"
+title: 5 Amazing Pry Tricks
 date: 2015-02-16
-meeting_id: 227
-link: https://twitter.com/saterus
 speakers:
-  - alexburkhart
+- name: Alex Burkhart
+  x-twitter: saterus
 ---
-
-
-<!-- Add talk description here -->

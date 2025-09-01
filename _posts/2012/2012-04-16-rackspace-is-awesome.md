@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Rackspace is awesome"
+title: Rackspace is awesome
 date: 2012-04-16
-meeting_id: 159
 speakers:
-  - mattdarby
+- name: Matt Darby
 ---
-
-
-<!-- Add talk description here -->

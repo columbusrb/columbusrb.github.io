@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Something Neat from RubyCon, TBD"
+title: Something Neat from RubyCon, TBD
 date: 2016-11-21
-meeting_id: 269
-link: https://twitter.com/al2o3cr
 speakers:
-  - mattjones
+- name: Matt JONES
+  x-twitter: al2o3cr
 ---
-
-
-<!-- Add talk description here -->

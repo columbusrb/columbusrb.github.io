@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Coding Outreach from Local Tech Heroes"
+title: Coding Outreach from Local Tech Heroes
 date: 2017-09-18
-meeting_id: 289
 link: https://localtechheroes.com
 speakers:
-  - kriskling
+- name: Kris Kling
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "A Better Way to Network"
+title: A Better Way to Network
 date: 2025-02-17
-meeting_id: 568
-link: www.linkedin.com/in/tianasilva
 speakers:
-  - tianasilva
+- name: Tiana Silva
+  linkedin: tianasilva
+  github: t4tiana
+  web: https://tiana.dev/
 ---
-
-
-<!-- Add talk description here -->

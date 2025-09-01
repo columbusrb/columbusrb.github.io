@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "ReUser gem"
+title: ReUser gem
 date: 2011-10-17
-meeting_id: 147
 speakers:
-  - isaacsanders
+- name: Isaac Sanders
 ---
-
-
-<!-- Add talk description here -->

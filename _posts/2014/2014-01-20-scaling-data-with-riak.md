@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Scaling data with Riak"
+title: Scaling data with Riak
 date: 2014-01-20
-meeting_id: 201
-link: https://twitter.com/alexmoore
 speakers:
-  - alexmoore
+- name: Alex Moore
+  x-twitter: alexmoore
 ---
-
-
-<!-- Add talk description here -->

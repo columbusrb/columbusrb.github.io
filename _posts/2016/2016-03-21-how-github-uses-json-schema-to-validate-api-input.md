@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "How GitHub uses JSON schema to validate API input"
+title: How GitHub uses JSON schema to validate API input
 date: 2016-03-21
-meeting_id: 253
-link: https://twitter.com/tarebyte
 speakers:
-  - marktareshawty
+- name: Mark Tareshawty
+  x-twitter: tarebyte
 ---
-
-
-<!-- Add talk description here -->

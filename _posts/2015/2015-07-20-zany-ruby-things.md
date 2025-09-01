@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Zany Ruby Things"
+title: Zany Ruby Things
 date: 2015-07-20
-meeting_id: 237
-link: https://twitter.com/yburyug
 speakers:
-  - bobbygrayson
+- name: Bobby Grayson
+  x-twitter: yburyug
 ---
-
-
-<!-- Add talk description here -->

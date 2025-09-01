@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "My First Time Refactoring"
+title: My First Time Refactoring
 date: 2020-03-16
-meeting_id: 319
 speakers:
-  - lukasindre
+- name: Lukas Indre
 ---
-
-
-<!-- Add talk description here -->

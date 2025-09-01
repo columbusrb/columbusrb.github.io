@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Challenging Each Other"
+title: Challenging Each Other
 date: 2013-07-15
-meeting_id: 189
-link: https://twitter.com/jcolv
 speakers:
-  - johncolvin
+- name: John Colvin
+  x-twitter: jcolv
 ---
-
-
-<!-- Add talk description here -->

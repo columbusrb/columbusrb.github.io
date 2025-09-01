@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Metaprogramming for Maniacs"
+title: Metaprogramming for Maniacs
 date: 2024-07-15
-meeting_id: 370
-link: https://github.com/gregmalcolm
 speakers:
-  - gregmalcolm
+- name: Greg Malcolm
+  github: gregmalcolm
 ---
-
-
-<!-- Add talk description here -->

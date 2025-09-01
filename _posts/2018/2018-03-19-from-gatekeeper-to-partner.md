@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "From Gatekeeper to Partner"
+title: From Gatekeeper to Partner
 date: 2018-03-19
-meeting_id: 295
 speakers:
-  - kelseyshannahan
+- name: Kelsey Shannahan
 ---
-
-
-<!-- Add talk description here -->

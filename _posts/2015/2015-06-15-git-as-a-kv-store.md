@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "git as a KV Store"
+title: git as a KV Store
 date: 2015-06-15
-meeting_id: 235
-link: https://twitter.com/yburyug
 speakers:
-  - redleatherpants
+- name: Red Leather Pants
+  x-twitter: yburyug
 ---
-
-
-<!-- Add talk description here -->

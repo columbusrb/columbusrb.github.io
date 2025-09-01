@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Start your Engines"
+title: Start your Engines
 date: 2015-12-21
-meeting_id: 247
-link: http://twitter.com/mdanmartinez
 speakers:
-  - danielmartinez
+- name: Daniel Martinez
+  x-twitter: mdanmartinez
 ---
-
-
-<!-- Add talk description here -->

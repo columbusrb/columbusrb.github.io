@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Domain Driven Design"
+title: Domain Driven Design
 date: 2020-01-20
-meeting_id: 317
 speakers:
-  - sethkraut
+- name: Seth Kraut
 ---
-
-
-<!-- Add talk description here -->

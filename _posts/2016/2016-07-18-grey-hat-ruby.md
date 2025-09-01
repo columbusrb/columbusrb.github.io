@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Grey Hat Ruby"
+title: Grey Hat Ruby
 date: 2016-07-18
-meeting_id: 261
-link: https://twitter.com/rrickardjr
 speakers:
-  - richardrickardjr
+- name: Richard Rickard Jr.
+  x-twitter: rrickardjr
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Rails 4 Updates"
+title: Rails 4 Updates
 date: 2013-09-16
-meeting_id: 193
-link: https://twitter.com/GregMalcolm
 speakers:
-  - gregmalcolm
+- name: Greg Malcolm
+  x-twitter: GregMalcolm
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "A Quick Introduction to Nonviolent Communication"
+title: A Quick Introduction to Nonviolent Communication
 date: 2023-06-26
-meeting_id: 358
-link: https://www.linkedin.com/in/belongstorachel/
 speakers:
-  - rachelslaby
+- name: Rachel Slaby
+  linkedin: belongstorachel
 ---
-
-
-<!-- Add talk description here -->

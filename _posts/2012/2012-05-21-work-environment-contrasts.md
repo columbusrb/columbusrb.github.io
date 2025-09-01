@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Work Environment Contrasts"
+title: Work Environment Contrasts
 date: 2012-05-21
-meeting_id: 161
 speakers:
-  - rj
+- name: RJ
 ---
-
-
-<!-- Add talk description here -->

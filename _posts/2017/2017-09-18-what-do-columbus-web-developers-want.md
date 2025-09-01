@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "What Do Columbus Web Developers Want?"
+title: What Do Columbus Web Developers Want?
 date: 2017-09-18
-meeting_id: 289
 link: https://en.wikipedia.org/wiki/Larry_Sanger
 speakers:
-  - larrysanger
+- name: Larry Sanger
 ---
-
-
-<!-- Add talk description here -->

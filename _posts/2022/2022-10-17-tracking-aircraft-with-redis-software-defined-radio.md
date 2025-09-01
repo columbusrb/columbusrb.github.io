@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Tracking Aircraft with Redis + Software-Defined Radio"
+title: Tracking Aircraft with Redis + Software-Defined Radio
 date: 2022-10-17
-meeting_id: 350
 link: http://guyroyse.com/
 speakers:
-  - guyroyse
+- name: Guy Royse
+  linkedin: groyse
+  x-twitter: guyroyse
+  github: guyroyse
+  web: http://guyroyse.com/
 ---
-
-
-<!-- Add talk description here -->

@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "OLE Automation with Ruby and WIN32OLE"
+title: OLE Automation with Ruby and WIN32OLE
 date: 2017-08-21
-meeting_id: 287
-link: https://github.com/russelljoshuaa
 speakers:
-  - joshuarussell
+- name: Joshua Russell
+  github: russelljoshuaa
 ---
-
-
-<!-- Add talk description here -->

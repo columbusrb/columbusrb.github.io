@@ -1,9 +1,14 @@
 ---
 layout: post
-title: 'Modern Problems Require Modern Solutions: Finding Your Meme Twin with Embeddings & Vector Databases'
+title: 'Modern Problems Require Modern Solutions: Finding Your Meme Twin with Embeddings
+  & Vector Databases'
 link: https://sessionize.com/s/guyroyse/modern-problems-require-modern-solutions-finding-y/76239
 speakers:
-  - guyroyse
+- name: Guy Royse
+  linkedin: groyse
+  x-twitter: guyroyse
+  github: guyroyse
+  web: http://guyroyse.com/
 ---
 Do you look like a famous meme character? Does someone you know? Knowing this information is vital—both for your career and your personal life. After all, am I the only one around here who wants to avoid [Angry Walter](https://knowyourmeme.com/memes/am-i-the-only-one-around-here)? And who *wouldn't* want to work with [Success Kid](https://knowyourmeme.com/memes/success-kid-i-hate-sandcastles).
 

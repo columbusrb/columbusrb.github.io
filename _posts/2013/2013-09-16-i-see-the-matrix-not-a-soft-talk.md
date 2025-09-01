@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "I See the Matrix (not a soft talk)"
+title: I See the Matrix (not a soft talk)
 date: 2013-09-16
-meeting_id: 193
-link: https://twitter.com/Soodesune
 speakers:
-  - marklorenz
+- name: Mark Lorenz
+  x-twitter: Soodesune
 ---
-
-
-<!-- Add talk description here -->

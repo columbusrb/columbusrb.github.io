@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "CoverMyMeds' 15 Week Internal Dev Bootcamp"
+title: CoverMyMeds' 15 Week Internal Dev Bootcamp
 date: 2022-11-21
-meeting_id: 351
 link: https://www.spot2fish.com/
 speakers:
-  - scottmascio
+- name: Scott Mascio
 ---
-
-
-<!-- Add talk description here -->

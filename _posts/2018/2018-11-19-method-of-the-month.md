@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Method of the Month"
+title: Method of the Month
 date: 2018-11-19
-meeting_id: 303
 speakers:
-  - meaganmunch
+- name: Meagan Munch
 ---
-
-
-<!-- Add talk description here -->

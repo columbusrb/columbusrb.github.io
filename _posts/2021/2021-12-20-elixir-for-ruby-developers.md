@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Elixir for Ruby Developers"
+title: Elixir for Ruby Developers
 date: 2021-12-20
-meeting_id: 340
-link: 
+link:
 speakers:
-  - jesscanady
+- name: Jess Canady
 ---
-
-
-<!-- Add talk description here -->

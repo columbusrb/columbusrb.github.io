@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Crafting a ruby gem"
+title: Crafting a ruby gem
 date: 2011-12-19
-meeting_id: 151
 speakers:
-  - isaacsanders
+- name: Isaac Sanders
 ---
-
-
-<!-- Add talk description here -->

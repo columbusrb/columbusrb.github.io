@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Replicating Data Types"
+title: Replicating Data Types
 date: 2016-05-16
-meeting_id: 257
-link: http://twitter.com/rjo1970
 speakers:
-  - rjosborne
+- name: RJ Osborne
+  x-twitter: rjo1970
 ---
-
-
-<!-- Add talk description here -->

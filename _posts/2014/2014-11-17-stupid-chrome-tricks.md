@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Stupid Chrome Tricks"
+title: Stupid Chrome Tricks
 date: 2014-11-17
-meeting_id: 221
 link: http://covermymeds.com
 speakers:
-  - alexford
+- name: Alex Ford
 ---
-
-
-<!-- Add talk description here -->

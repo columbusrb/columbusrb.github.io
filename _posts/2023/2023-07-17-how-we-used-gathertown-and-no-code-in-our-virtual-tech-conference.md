@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "How we used Gather.town and No code in our Virtual Tech Conference"
+title: How we used Gather.town and No code in our Virtual Tech Conference
 date: 2023-07-17
-meeting_id: 359
-link: https://www.linkedin.com/in/brian-lees/
 speakers:
-  - brianlees
+- name: Brian Lees
+  linkedin: brian-lees
 ---
-
-
-<!-- Add talk description here -->

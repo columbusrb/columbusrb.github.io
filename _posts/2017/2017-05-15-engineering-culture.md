@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Engineering Culture"
+title: Engineering Culture
 date: 2017-05-15
-meeting_id: 281
 link: https://www.mutuallyhuman.com/team/mike-doel
 speakers:
-  - mikedoel
+- name: Mike Doel
 ---
-
-
-<!-- Add talk description here -->

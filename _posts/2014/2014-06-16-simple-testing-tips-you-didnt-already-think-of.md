@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Simple testing tips you didn't already think of"
+title: Simple testing tips you didn't already think of
 date: 2014-06-16
-meeting_id: 211
 link: http://covermymeds.com
 speakers:
-  - marklorenzmichaelgee
+- name: Mark Lorenz & Michael Gee
 ---
-
-
-<!-- Add talk description here -->

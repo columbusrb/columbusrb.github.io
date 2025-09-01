@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "Evolution of a front-end App"
+title: Evolution of a front-end App
 date: 2012-04-16
-meeting_id: 159
 speakers:
-  - paulcook
+- name: Paul Cook
 ---
-
-
-<!-- Add talk description here -->

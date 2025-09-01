@@ -1,11 +1,7 @@
 ---
 layout: post
-title: "git: History is written by the winners"
+title: 'git: History is written by the winners'
 date: 2012-02-20
-meeting_id: 155
 speakers:
-  - magnusstahre
+- name: Magnus Stahre
 ---
-
-
-<!-- Add talk description here -->
