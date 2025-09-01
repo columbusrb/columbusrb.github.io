@@ -74,7 +74,7 @@ title: "Home"
   </div>
 
   <!-- Parking Section -->
-  <div class="border-t pt-8">
+  <div class="pt-8">
     <h3 class="text-lg font-semibold text-gray-800 mb-4">Parking & Arrival</h3>
     <div class="grid md:grid-cols-3 gap-6">
       <div class="space-y-4">
