@@ -166,11 +166,11 @@ title: "Home"
 </div>
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">About</h2>
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">About Us</h2>
   <p class="text-gray-700 leading-relaxed mb-4">
     We are a bunch of professionals, students, and geeks who are excited about <a href="https://www.ruby-lang.org/" class="text-red-600 hover:text-red-800 font-medium">Ruby programming language</a> and <a href="https://rubyonrails.org/" class="text-red-600 hover:text-red-800 font-medium">Rails framework</a> and the joy they have brought back to web development. Our goal is to provide a welcoming environment to speak and share knowledge to all level of programmers who are interested in Ruby, the Rails framework, and professional development.
   </p>
-  <ul class="space-y-2 text-gray-700">
+  <ul class="space-y-2 text-gray-700 mb-6">
     <li class="flex items-center">
       <span class="text-red-600 mr-2">•</span>
       We give lectures on programming topics
@@ -184,6 +184,27 @@ title: "Home"
       We provide networking opportunities
     </li>
   </ul>
+  
+  <div class="pt-6">
+    <p class="text-gray-700 leading-relaxed mb-4">
+      We are a non-profit organization guided by a passionate board of volunteers who work together to organize our community and events.
+    </p>
+    <h3 class="text-xl font-semibold text-gray-800 mb-4">Board of Directors</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for member in site.data.board %}
+        <div class="bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors duration-200">
+            {% if member.link %}
+              <a href="{{member.link}}" target="_blank" class="text-red-600 hover:text-red-800 font-medium text-lg block mb-1">{{member.name}}</a>
+            {% else %}
+              <span class="font-medium text-lg text-gray-800 block mb-1">{{ member.name }}</span>
+            {% endif %}
+            {% if member.title %}
+              <span class="text-gray-600 text-sm">{{member.title}}</span>
+            {% endif %}
+        </div>
+    {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
@@ -215,23 +236,6 @@ title: "Home"
   </div>
 </div>
 
-<div class="bg-white rounded-lg shadow-lg p-6 mb-8">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">Board of Directors</h2>
-  <ul class="space-y-2">
-  {% for member in site.data.board %}
-      <li class="text-gray-700">
-          {% if member.link %}
-            <a href="{{member.link}}" target="_blank" class="text-red-600 hover:text-red-800 font-medium">{{member.name}}</a>
-          {% else %}
-            <span class="font-medium">{{ member.name }}</span>
-          {% endif %}
-          {% if member.title %}
-            <span class="text-gray-500"> - {{member.title}}</span>
-          {% endif %}
-      </li>
-  {% endfor %}
-  </ul>
-</div>
 
 <div class="bg-white rounded-lg shadow-lg p-6">
   <h2 class="text-2xl font-bold text-gray-800 mb-6">Graciously Sponsored By</h2>
