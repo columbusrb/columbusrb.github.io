@@ -13,8 +13,15 @@ title: "Home"
       <p class="mb-2">
         <span class="font-semibold text-gray-700">Talk:</span>
         <a href="{{talk.url}}" class="text-red-600 hover:text-red-800 font-medium">{{ talk.title }}</a>
-      </p>
-      {% if talk.speakers.size > 1 %}
+      </p> 
+       <p class="font-semibold text-gray-700 mb-2">Speaker(s):</p>
+        <ul class="list-disc list-inside space-y-1">
+        {% for speaker_id in talk.speakers %}
+            {% assign speaker = site.data.speakers[speaker_id] %}
+            <li class="text-gray-600">{{speaker.name}}</li>
+        {% endfor %}
+        </ul>
+      <!-- {% if talk.speakers.size > 1 %}
         <p class="font-semibold text-gray-700 mb-2">Speakers:</p>
         <ul class="list-disc list-inside space-y-2 mb-3">
         {% for speaker_id in talk.speakers %}
@@ -40,7 +47,7 @@ title: "Home"
           {{ talk.content | strip_html }}
         </div>
         {% endif %}
-      {% endif %}
+      {% endif %} -->
     </div>
     {% endfor %}
   </div>
