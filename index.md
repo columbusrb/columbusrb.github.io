@@ -3,8 +3,10 @@ layout: default
 title: "Home"
 ---
 
-{% assign next = site.posts.first %}
-{% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
+{% assign current_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% assign next = current_posts.first %}
+{% if next %}
+  {% assign talks = current_posts | where_exp: "post", "post.date == next.date" %}
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   <h2 class="text-2xl font-bold text-gray-800 mb-6">Next Meeting - {{ next.date | date: "%B %-d, %Y" }} 6:30pm</h2>
   <div class="space-y-8">
@@ -71,6 +73,12 @@ title: "Home"
     {% endfor %}
   </div>
 </div>
+{% else %}
+<div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+  <h2 class="text-2xl font-bold text-gray-800 mb-6">No Upcoming Meetings</h2>
+  <p class="text-gray-600">Check back soon for upcoming meeting announcements!</p>
+</div>
+{% endif %}
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   <h2 class="text-2xl font-bold text-gray-800 mb-6">Location & Parking</h2>
