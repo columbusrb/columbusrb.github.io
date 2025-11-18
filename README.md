@@ -27,6 +27,7 @@ The file must contain the following front matter with speaker information embedd
 layout: post
 title: The name of the talk
 date: 2025-02-17                    # Optional: Date of the meetup (YYYY-MM-DD)
+type: event                         # Optional: "event" for special events, omit for regular meetings
 link: https://example.com/repo      # Optional: External link for "More Details"
 speakers:
 - name: Speaker Name                # Required: Full name of the speaker
@@ -46,6 +47,7 @@ This content will be displayed on both the talks page and individual post pages.
 - **`layout`**: Always use `post`
 - **`title`**: The talk title (required)
 - **`date`**: Meetup date in YYYY-MM-DD format (optional, defaults to filename date)
+- **`type`**: Set to `event` for special events (holiday parties, etc.). Omit for regular meetings. This affects the main page display label.
 - **`link`**: External link displayed as "More Details" button (optional)
 - **`speakers`**: Array of speaker objects with embedded social information (required)
   - **`name`**: Speaker's full name (required)
