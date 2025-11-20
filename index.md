@@ -5,20 +5,22 @@ title: "Home"
 
 {% comment %}
 Find the next meeting that should be displayed:
+
 - If there's a future meeting, show it (upcoming meeting)
 - If no future meetings, show the most recent past meeting
-{% endcomment %}
-{% assign future_posts = site.posts | where_exp: "post", "post.date > site.time" %}
-{% assign past_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+  {% endcomment %}
+  {% assign future_posts = site.posts | where_exp: "post", "post.date > site.time" %}
+  {% assign past_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
 
 {% if future_posts.size > 0 %}
-  {% assign next = future_posts.last %}
+{% assign next = future_posts.last %}
 {% else %}
-  {% assign next = past_posts.first %}
+{% assign next = past_posts.first %}
 {% endif %}
 
 {% if next %}
-  {% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
+{% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
+
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   {% if next.type == "event" %}
     <h2 class="text-2xl font-bold text-gray-800 mb-6">Upcoming Event - {{ next.date | date: "%B %-d, %Y" }}</h2>
@@ -30,7 +32,7 @@ Find the next meeting that should be displayed:
     <article class="bg-gray-50 rounded-lg p-6 border-2 border-gray-200 shadow-md hover:shadow-lg transition-shadow duration-200">
       <!-- Title and Content Section -->
       <h3 class="text-2xl font-bold text-gray-800 mb-4">{{ talk.title }}</h3>
-      
+
       <!-- External Link -->
       {% if talk.link %}
         <div class="mb-6">
@@ -42,7 +44,7 @@ Find the next meeting that should be displayed:
           </a>
         </div>
       {% endif %}
-      
+
       {% assign clean_content = talk.content | strip %}
       {% assign content_size = clean_content | size %}
       {% if content_size > 0 %}
@@ -52,7 +54,7 @@ Find the next meeting that should be displayed:
           </div>
         </div>
       {% endif %}
-      
+
       <!-- Speakers Section at Bottom -->
       {% if talk.speakers %}
         {% for speaker in talk.speakers %}
@@ -87,6 +89,7 @@ Find the next meeting that should be displayed:
       {% endif %}
     </article>
     {% endfor %}
+
   </div>
 </div>
 {% else %}
@@ -103,11 +106,11 @@ Find the next meeting that should be displayed:
   <div class="mb-8">
     <div class="flex flex-col md:flex-row md:items-center gap-6">
       <div class="flex-1">
-        <h3 class="text-lg font-semibold text-gray-800 mb-2">Meeting Location</h3>
-        <p class="text-lg text-gray-700 mb-2">
+        <h3 class="font-semibold text-gray-800 mb-2">Meeting Location</h3>
+        <p class="text-gray-700 mb-2">
           <span class="font-semibold">Where:</span>
-          <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="text-red-600 hover:text-red-800 font-medium">
-            CoverMyMeds - 910 John St, Columbus, OH 43222
+          <a href="https://maps.app.goo.gl/k6J4dZCbDuZuLY4b7" target="_blank" class="text-red-600 hover:text-red-800 font-medium">
+            Bold Penguin - 6555 Longshore St, Dublin, OH 43017
           </a>
         </p>
         <p class="text-gray-600">
@@ -116,8 +119,8 @@ Find the next meeting that should be displayed:
         </p>
       </div>
       <div class="flex-shrink-0 w-full md:w-80">
-        <a href="https://maps.app.goo.gl/N3ggq9WadNFX7JoD7" target="_blank" class="block">
-          <img src="/assets/images/map.png" alt="Meeting location map" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
+        <a href="https://maps.app.goo.gl/k6J4dZCbDuZuLY4b7" target="_blank" class="block">
+          <img src="/assets/images/map.png" alt="Meeting location map" class="w-full max-h-72 object-center object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
         </a>
       </div>
     </div>
@@ -130,15 +133,20 @@ Find the next meeting that should be displayed:
       <div class="space-y-4">
         <div class="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-400">
           <p class="text-sm text-gray-700">
-            <span class="font-semibold text-blue-800">Parking Information:</span> 
-            Parking in the garage is no longer available. Please park in front of the main entrance or the wedge lot (see parking map). 
-            Orange Barrel Media has graciously allowed us to park in their lot as well. Doors are open until 6pm. After 6pm security will need to let you in.
+            <span class="font-semibold text-blue-800">Parking:</span>
+            Parking in Bridge Park is free. The closest lots are the Mooney Garage and the Hotel/Endres Garage.
+          </p>
+          <p class="text-sm text-gray-700">
+            <span class="font-semibold text-blue-800">Entry:</span>
+            The doors to the office are to the right of PINS. The street level door and elevators
+            lock at 6pm. If you arrive after that, someone should be there to let you in, else call
+            the number posted. Take the elevator to the 2nd floor. Once you exit the elevator, turn right.
           </p>
         </div>
       </div>
       <div class="parking-map md:col-span-2">
         <a href="/assets/images/parking_map.png" target="_blank" class="block">
-          <img src="/assets/images/parking_map.png" alt="Parking map showing available parking areas" class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
+          <img src="/assets/images/parking_map.png" alt="Parking map showing available parking areas" class="w-full max-h-84 object-center object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200" />
         </a>
       </div>
     </div>
@@ -156,7 +164,7 @@ Find the next meeting that should be displayed:
   <div class="grid md:grid-cols-3 gap-4">
       <!-- iCal Subscription -->
       <div class="group">
-        <a href="https://calendar.google.com/calendar/ical/columbusrb.com_u3g7hnfb4o8dnuisckhgbrn9ro%40group.calendar.google.com/public/basic.ics" 
+        <a href="https://calendar.google.com/calendar/ical/columbusrb.com_u3g7hnfb4o8dnuisckhgbrn9ro%40group.calendar.google.com/public/basic.ics"
            class="block p-6 text-white rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
            style="background: linear-gradient(to bottom right, #2b2c30, #3a3b41);"
            onmouseover="this.style.background='linear-gradient(to bottom right, #1a1b1e, #2b2c30)'"
@@ -175,7 +183,7 @@ Find the next meeting that should be displayed:
 
       <!-- Google Calendar -->
       <div class="group">
-        <a href="https://calendar.google.com/calendar/u/0?cid=Y29sdW1idXNyYi5jb21fdTNnN2huZmI0bzhkbnVpc2NraGdicm45cm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" 
+        <a href="https://calendar.google.com/calendar/u/0?cid=Y29sdW1idXNyYi5jb21fdTNnN2huZmI0bzhkbnVpc2NraGdicm45cm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
            target="_blank"
            class="block p-6 text-white rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
            style="background: linear-gradient(to bottom right, #2b2c30, #3a3b41);"
@@ -195,7 +203,7 @@ Find the next meeting that should be displayed:
 
       <!-- Meetup -->
       <div class="group">
-        <a href="https://www.meetup.com/columbusrb/" 
+        <a href="https://www.meetup.com/columbusrb/"
            target="_blank"
            class="block p-6 text-white rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
            style="background: linear-gradient(to bottom right, #3a3b41, #494a50);"
@@ -213,6 +221,7 @@ Find the next meeting that should be displayed:
         </a>
       </div>
     </div>
+
 </div>
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
@@ -285,7 +294,6 @@ Find the next meeting that should be displayed:
     </table>
   </div>
 </div>
-
 
 <div class="bg-white rounded-lg shadow-lg p-6">
   <h2 class="text-2xl font-bold text-gray-800 mb-6">Graciously Sponsored By</h2>
