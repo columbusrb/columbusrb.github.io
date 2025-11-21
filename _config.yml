@@ -27,3 +27,10 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-tailwindcss
   - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - heroku.dump
+  - remove_meeting_format.rb
+  - update_meeting_dates.rb
+  - tailwind.config.js
