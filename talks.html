@@ -14,7 +14,7 @@ pagination:
         <p class="text-gray-600 text-lg mb-6">{{ post.date | date: "%B %-d, %Y" }}</p>
         
         <!-- Title and Content Section -->
-        <h2 class="text-3xl font-bold text-gray-800 mb-4">{{ post.title }}</h2>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4"><a href="{{post.url}}">{{ post.title }}</a></h2>
         
         <!-- External Link -->
         {% if post.link %}

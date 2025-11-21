@@ -2,6 +2,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: Columbus Ruby Brigade
 
+# These are used for SEO plugin
+logo: "/assets/images/logo.png"
+twitter:
+  username: columbusrb
+social:
+  links:
+    - https://x.com/columbusrb
+    - https://bsky.app/profile/columbusrb.bsky.social
+    - https://www.linkedin.com/company/columbus-ruby-brigade
+    - https://github.com/columbusrb
+    - https://www.meetup.com/columbusrb/
+
 future: true
 
 pagination:
@@ -12,3 +24,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-tailwindcss
+  - jekyll-seo-tag
