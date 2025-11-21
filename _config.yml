@@ -15,6 +15,11 @@ social:
     - https://www.meetup.com/columbusrb/
 webmaster_verifications:
   google: "tC9CVUBOtomO3fA3fgNqmb6OSq-FQuzJTErmIM8oyWM"
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/logo.png"
 
 future: true
 
