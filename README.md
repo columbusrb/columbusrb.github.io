@@ -81,7 +81,7 @@ Columbus Ruby Brigade meets on the **3rd Monday of every month** at 6:00 PM (tal
 - 2025-12-15
 
 ### 2026 Schedule  
-- 2026-01-19
+- 2026-01-26 # Moved for MLK Day
 - 2026-02-16
 - 2026-03-16
 - 2026-04-20
