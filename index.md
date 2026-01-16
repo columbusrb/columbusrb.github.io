@@ -19,7 +19,14 @@ Find the next meeting that should be displayed:
 {% endif %}
 
 {% if next %}
-{% assign talks = site.posts | where_exp: "post", "post.date == next.date" %}
+{% assign talks = "" | split: "" %}
+{% assign next_date_string = next.date | date: "%Y-%m-%d" %}
+{% for post in site.posts %}
+  {% assign post_date_string = post.date | date: "%Y-%m-%d" %}
+  {% if post_date_string == next_date_string %}
+    {% assign talks = talks | push: post %}
+  {% endif %}
+{% endfor %}
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   {% if next.type == "event" %}
