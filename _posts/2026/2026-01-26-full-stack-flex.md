@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Full-Stack Flexing with Ruby on Rails' 
+title: Full-Stack Flexing with Ruby on Rails 
 date: 2026-01-26
 link: 
 speakers:
