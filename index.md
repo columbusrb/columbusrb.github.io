@@ -39,27 +39,6 @@ Find the next meeting that should be displayed:
 {% endfor %}
 {% assign talks = cancelled_talks | concat: regular_talks %}
 
-{% assign cancelled_meeting = false %}
-{% for talk in talks %}
-  {% if talk.cancelled == true %}
-    {% assign cancelled_meeting = true %}
-  {% endif %}
-{% endfor %}
-
-{% if cancelled_meeting %}
-<div class="bg-red-600 text-white rounded-lg shadow-lg p-6 mb-8 border-4 border-red-800">
-  <div class="flex items-center justify-center">
-    <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-    </svg>
-    <div>
-      <h2 class="text-3xl font-bold mb-2">Meeting Cancelled</h2>
-      <p class="text-lg">The meeting scheduled for {{ next.date | date: "%B %-d, %Y" }} has been cancelled.</p>
-    </div>
-  </div>
-</div>
-{% endif %}
-
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   {% if next.type == "event" %}
     <h2 class="text-2xl font-bold text-gray-800 mb-6">Upcoming Event - {{ next.date | date: "%B %-d, %Y" }}</h2>
