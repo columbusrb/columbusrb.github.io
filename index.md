@@ -22,22 +22,22 @@ Find the next meeting that should be displayed:
 {% assign talks = "" | split: "" %}
 {% assign next_date_string = next.date | date: "%Y-%m-%d" %}
 {% for post in site.posts %}
-  {% assign post_date_string = post.date | date: "%Y-%m-%d" %}
-  {% if post_date_string == next_date_string %}
-    {% assign talks = talks | push: post %}
-  {% endif %}
+{% assign post_date_string = post.date | date: "%Y-%m-%d" %}
+{% if post_date_string == next_date_string %}
+{% assign talks = talks | push: post %}
+{% endif %}
 {% endfor %}
 
-{% assign cancelled_talks = "" | split: "" %}
+{% assign canceled_talks = "" | split: "" %}
 {% assign regular_talks = "" | split: "" %}
 {% for talk in talks %}
-  {% if talk.cancelled == true %}
-    {% assign cancelled_talks = cancelled_talks | push: talk %}
-  {% else %}
-    {% assign regular_talks = regular_talks | push: talk %}
-  {% endif %}
+{% if talk.canceled == true %}
+{% assign canceled_talks = canceled_talks | push: talk %}
+{% else %}
+{% assign regular_talks = regular_talks | push: talk %}
+{% endif %}
 {% endfor %}
-{% assign talks = cancelled_talks | concat: regular_talks %}
+{% assign talks = canceled_talks | concat: regular_talks %}
 
 <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
   {% if next.type == "event" %}
@@ -47,10 +47,10 @@ Find the next meeting that should be displayed:
   {% endif %}
   <div class="space-y-8">
     {% for talk in talks %}
-    <article class="{% if talk.cancelled %}bg-red-50 border-4 border-red-600{% else %}bg-gray-50 border-2 border-gray-200{% endif %} rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
-      {% if talk.cancelled %}
+    <article class="{% if talk.canceled %}bg-red-50 border-4 border-red-600{% else %}bg-gray-50 border-2 border-gray-200{% endif %} rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+      {% if talk.canceled %}
       <div class="mb-4 p-3 bg-red-100 border-l-4 border-red-600 rounded">
-        <p class="text-red-800 font-bold text-lg">⚠️ This meeting has been cancelled</p>
+        <p class="text-red-800 font-bold text-lg">⚠️ This meeting has been canceled</p>
       </div>
       {% endif %}
       <!-- Title and Content Section -->

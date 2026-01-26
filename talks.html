@@ -10,93 +10,133 @@ pagination:
 
 <div class="space-y-8">
   {% for post in paginator.posts %}
-          <article class="{% if post.cancelled %}bg-red-50 border-4 border-red-600{% else %}bg-white{% endif %} rounded-lg shadow-lg p-8">
-        {% if post.cancelled %}
-        <div class="mb-4 p-3 bg-red-100 border-l-4 border-red-600 rounded">
-          <p class="text-red-800 font-bold text-lg">⚠️ This meeting has been cancelled</p>
+  <article
+    class="{% if post.canceled %}bg-red-50 border-4 border-red-600{% else %}bg-white{% endif %} rounded-lg shadow-lg p-8"
+  >
+    {% if post.canceled %}
+    <div class="mb-4 p-3 bg-red-100 border-l-4 border-red-600 rounded">
+      <p class="text-red-800 font-bold text-lg">
+        ⚠️ This meeting has been canceled
+      </p>
+    </div>
+    {% endif %}
+    <p class="text-gray-600 text-lg mb-6">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <!-- Title and Content Section -->
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">
+      <a href="{{post.url}}">{{ post.title }}</a>
+    </h2>
+
+    <!-- External Link -->
+    {% if post.link %}
+    <div class="mb-6">
+      <a
+        href="{{ post.link }}"
+        target="_blank"
+        class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+      >
+        <svg
+          class="w-4 h-4 mr-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+        More Details
+      </a>
+    </div>
+    {% endif %} {% assign clean_content = post.content | strip %} {% assign
+    content_size = clean_content | size %} {% if content_size > 0 %}
+    <div class="mb-6">
+      <div class="prose prose-lg max-w-none">{{ post.content }}</div>
+    </div>
+    {% endif %}
+
+    <!-- Speakers Section at Bottom -->
+    {% if post.speakers %} {% for speaker in post.speakers %}
+    <div class="speaker bg-gray-50 rounded-lg p-4 mb-4">
+      <div class="flex items-center justify-between">
+        <span class="text-lg font-semibold text-gray-800"
+          >{{ speaker.name }}</span
+        >
+        <div class="social flex space-x-3">
+          {% if speaker.linkedin %}
+          <a
+            href="https://www.linkedin.com/in/{{ speaker.linkedin }}/"
+            target="_blank"
+            class="text-gray-600 hover:text-red-600 transition-colors duration-200"
+          >
+            <img
+              src="/assets/images/linkedin.svg"
+              alt="LinkedIn"
+              class="h-5 w-5"
+            />
+          </a>
+          {% endif %} {% if speaker.x-twitter %}
+          <a
+            href="https://x.com/{{ speaker.x-twitter }}"
+            target="_blank"
+            class="text-gray-600 hover:text-red-600 transition-colors duration-200"
+          >
+            <img src="/assets/images/x-twitter.svg" alt="X" class="h-5 w-5" />
+          </a>
+          {% endif %} {% if speaker.github %}
+          <a
+            href="https://github.com/{{ speaker.github }}"
+            target="_blank"
+            class="text-gray-600 hover:text-red-600 transition-colors duration-200"
+          >
+            <img src="/assets/images/github.svg" alt="GitHub" class="h-5 w-5" />
+          </a>
+          {% endif %} {% if speaker.web %}
+          <a
+            href="{{ speaker.web }}"
+            target="_blank"
+            class="text-gray-600 hover:text-red-600 transition-colors duration-200"
+          >
+            <img src="/assets/images/link.svg" alt="link" class="h-5 w-5" />
+          </a>
+          {% endif %}
         </div>
-        {% endif %}
-        <p class="text-gray-600 text-lg mb-6">{{ post.date | date: "%B %-d, %Y" }}</p>
-        
-        <!-- Title and Content Section -->
-        <h2 class="text-3xl font-bold text-gray-800 mb-4"><a href="{{post.url}}">{{ post.title }}</a></h2>
-        
-        <!-- External Link -->
-        {% if post.link %}
-          <div class="mb-6">
-            <a href="{{ post.link }}" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
-              <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              More Details
-            </a>
-          </div>
-        {% endif %}
-        
-        {% assign clean_content = post.content | strip %}
-        {% assign content_size = clean_content | size %}
-        {% if content_size > 0 %}
-          <div class="mb-6">
-            <div class="prose prose-lg max-w-none">
-              {{ post.content }}
-            </div>
-          </div>
-        {% endif %}
-        
-        <!-- Speakers Section at Bottom -->
-        {% if post.speakers %}
-          {% for speaker in post.speakers %}
-            <div class="speaker bg-gray-50 rounded-lg p-4 mb-4">
-              <div class="flex items-center justify-between">
-                <span class="text-lg font-semibold text-gray-800">{{ speaker.name }}</span>
-                <div class="social flex space-x-3">
-                  {% if speaker.linkedin %}
-                    <a href="https://www.linkedin.com/in/{{ speaker.linkedin }}/" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
-                      <img src="/assets/images/linkedin.svg" alt="LinkedIn" class="h-5 w-5" />
-                    </a>
-                  {% endif %}
-                  {% if speaker.x-twitter %}
-                    <a href="https://x.com/{{ speaker.x-twitter }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
-                      <img src="/assets/images/x-twitter.svg" alt="X" class="h-5 w-5" />
-                    </a>
-                  {% endif %}
-                  {% if speaker.github %}
-                    <a href="https://github.com/{{ speaker.github }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
-                      <img src="/assets/images/github.svg" alt="GitHub" class="h-5 w-5" />
-                    </a>
-                  {% endif %}
-                  {% if speaker.web %}
-                    <a href="{{ speaker.web }}" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-200">
-                      <img src="/assets/images/link.svg" alt="link" class="h-5 w-5" />
-                    </a>
-                  {% endif %}
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        {% endif %}
-    </article>
+      </div>
+    </div>
+    {% endfor %} {% endif %}
+  </article>
   {% endfor %}
 </div>
 
 {% if paginator.total_pages > 1 %}
-  <div class="mt-8 flex justify-center">
-    <nav class="flex items-center space-x-4">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200">
-          &larr; Newer Talks
-        </a>
-      {% endif %}
-      
-      <span class="text-gray-600 px-4 py-2">
-        Page {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
-      
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200">
-          Older Talks &rarr;
-        </a>
-      {% endif %}
-    </nav>
-  </div>
+<div class="mt-8 flex justify-center">
+  <nav class="flex items-center space-x-4">
+    {% if paginator.previous_page %}
+    <a
+      href="{{ paginator.previous_page_path }}"
+      class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200"
+    >
+      &larr; Newer Talks
+    </a>
+    {% endif %}
+
+    <span class="text-gray-600 px-4 py-2">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+    <a
+      href="{{ paginator.next_page_path }}"
+      class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200"
+    >
+      Older Talks &rarr;
+    </a>
+    {% endif %}
+  </nav>
+</div>
 {% endif %}
