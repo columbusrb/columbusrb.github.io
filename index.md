@@ -6,14 +6,24 @@ title: "Home"
 {% comment %}
 Find the next meeting that should be displayed:
 
-- If there's a future meeting, show it (upcoming meeting)
-- If no future meetings, show the most recent past meeting
+- If there's a meeting today or in the future, show the earliest one
+- If no upcoming meetings, show the most recent past meeting
   {% endcomment %}
-  {% assign future_posts = site.posts | where_exp: "post", "post.date > site.time" %}
-  {% assign past_posts = site.posts | where_exp: "post", "post.date <= site.time" %}
+  {% assign today_string = site.time | date: "%Y-%m-%d" %}
+  {% assign upcoming_posts = "" | split: "" %}
+  {% assign past_posts = "" | split: "" %}
+  
+  {% for post in site.posts %}
+    {% assign post_date_string = post.date | date: "%Y-%m-%d" %}
+    {% if post_date_string >= today_string %}
+      {% assign upcoming_posts = upcoming_posts | push: post %}
+    {% else %}
+      {% assign past_posts = past_posts | push: post %}
+    {% endif %}
+  {% endfor %}
 
-{% if future_posts.size > 0 %}
-{% assign next = future_posts.last %}
+{% if upcoming_posts.size > 0 %}
+{% assign next = upcoming_posts.last %}
 {% else %}
 {% assign next = past_posts.first %}
 {% endif %}
