@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Full-Stack Flexing with Ruby on Rails 
-date: 2026-01-26
+date: 2026-02-16
 link: 
 speakers:
 - name: Rob Stevenson
