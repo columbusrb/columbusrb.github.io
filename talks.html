@@ -10,7 +10,12 @@ pagination:
 
 <div class="space-y-8">
   {% for post in paginator.posts %}
-          <article class="bg-white rounded-lg shadow-lg p-8">
+          <article class="{% if post.cancelled %}bg-red-50 border-4 border-red-600{% else %}bg-white{% endif %} rounded-lg shadow-lg p-8">
+        {% if post.cancelled %}
+        <div class="mb-4 p-3 bg-red-100 border-l-4 border-red-600 rounded">
+          <p class="text-red-800 font-bold text-lg">⚠️ This meeting has been cancelled</p>
+        </div>
+        {% endif %}
         <p class="text-gray-600 text-lg mb-6">{{ post.date | date: "%B %-d, %Y" }}</p>
         
         <!-- Title and Content Section -->
