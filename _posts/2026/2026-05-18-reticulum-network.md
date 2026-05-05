@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LGTM is not a Strategy
-date: 2026-04-20
+date: 2026-05-18
 link:
 speakers:
 - name: Todd Nussbaum
