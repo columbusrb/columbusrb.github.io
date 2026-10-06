@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Patching at Machine Speed: Can We Actually Keep Up with the Landside of CVEs?
+title: "Patching at Machine Speed: Can We Actually Keep Up with the Landside of CVEs?"
 date: 2026-10-19
 speakers:
 - name: Jonathan Stevens
